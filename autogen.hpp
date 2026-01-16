@@ -105,7 +105,39 @@ class CfgEditorSubcategories
     class BT_WordBearers_MkVI_Officer     {
         displayName = "Mk.6 Officer"; // Name visible in the list
     };
-
+    class BT_WordBearers_Heavy_Tanks     {
+        displayName = "Ground Tanks Heavy"; // Name visible in the list
+    };
+    class BT_WordBearers_Medium_Tanks     {
+        displayName = "Ground Tanks Medium"; // Name visible in the list
+    };
+    class BT_WordBearers_APCs     {
+        displayName = "Ground APCs"; // Name visible in the list
+    };
+    class BT_WordBearers_Command_Vehicles     {
+        displayName = "Ground Command Vics"; // Name visible in the list
+    };
+    class BT_WordBearers_Artillery_Vehicles     {
+        displayName = "Ground Artillery"; // Name visible in the list
+    };
+    class BT_WordBearers_Small_Vehicles     {
+        displayName = "Ground Small Vics"; // Name visible in the list
+    };
+    class BT_WordBearers_Logi_Vehicles     {
+        displayName = "Ground Logistics"; // Name visible in the list
+    };
+    class BT_WordBearers_Small_Fast_Attack     {
+        displayName = "Air Small Fast Attack"; // Name visible in the list
+    };
+    class BT_WordBearers_Air_Transport     {
+        displayName = "Air Transport"; // Name visible in the list
+    };
+    class BT_WordBearers_Gunships    {
+        displayName = "Air Gunships"; // Name visible in the list
+    };
+    class BT_WordBearers_Fast_Movers    {
+        displayName = "Air Fast Movers"; // Name visible in the list
+    };
 };
 
 class CfgGroups {
@@ -114,59 +146,1978 @@ class CfgGroups {
         class O__BT_WordBearers_40k {
             name = "[BT] Custom Comp Word Bearers";
 
-            class Infantry {
-                name = "Infantry";
+            class Devastator_AT_Squad {
+                name = "Devastator_AT_Squad";
+
+                class o_obtwordbearers40k_infantry_devastator_at_squad_1 {
+                    name = "Devastator AT Squad 1";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_4Initiate_3Lascutter_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_2Tigrus_Bolter_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_3Lascannon_Shoulder_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5NeophyteMulti_Melta_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_infantry_devastator_at_squad_3 {
+                    name = "Devastator AT Squad 3";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5VeteranRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Proteus_Missile_Shoulder_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Autocannon_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6Initiate_2Lascannon_Hip_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6NeophyteTigrus_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_infantry_devastator_at_squad_2 {
+                    name = "Devastator AT Squad 2";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Combi_Bolter_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_3Proteus_Missile_Shoulder_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_5Initiate_3Lascannon_Hip_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_1Multi_Melta_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_2NeophytePhobos_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_devastator_at_squad_devastator_at_squad_4 {
+                    name = "Devastator AT Squad 4";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_6VeteranUmbra_Bolter_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_2Proteus_Missile_Shoulder_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_6Initiate_1Umbra_Bolter_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Primus_Melta_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4NeophyteMulti_Melta_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_devastator_at_squad_devastator_at_squad_5 {
+                    name = "Devastator AT Squad 5";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2VeteranLascutter_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_5Initiate_3Lascannon_Shoulder_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_2Phobos_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_5Initiate_3Phobos_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_2NeophyteMulti_Melta_40k_01";
+                    };
+                };
 
             };
 
-            class SpecOps {
-                name = "Special Forces";
+            class Devastator_AP_Squad {
+                name = "Devastator_AP_Squad";
+
+                class o_obtwordbearers40k_devastator_ap_squad_devastator_ap_squad_1 {
+                    name = "Devastator AP Squad 1";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranAutocannon_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6Initiate_1Phobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Phobos_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6Initiate_2Plasma_Cannon_Shoulder_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6NeophyteHeavy_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_devastator_ap_squad_devastator_ap_squad_2 {
+                    name = "Devastator AP Squad 2";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2VeteranRotor_Cannon_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_2Phobos_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Phobos_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_3Autocannon_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6NeophyteHeavy_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_devastator_ap_squad_devastator_ap_squad_3 {
+                    name = "Devastator AP Squad 3";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_4VeteranAutocannon_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_2Initiate_2Heavy_Bolter_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Phobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3NeophyteRotor_Cannon_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_devastator_ap_squad_devastator_ap_squad_4 {
+                    name = "Devastator AP Squad 4";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2VeteranPhobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_2Heavy_Bolter_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_1Rotor_Cannon_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Plasma_Cannon_Hip_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_2NeophyteTigrus_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_devastator_ap_squad_devastator_ap_squad_5 {
+                    name = "Devastator AP Squad 5";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5VeteranProteus_Missile_Shoulder_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_4Initiate_3Plasma_Cannon_Shoulder_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Heavy_Bolter_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_2Tigrus_Bolter_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4NeophytePhobos_40k_01";
+                    };
+                };
 
             };
 
-            class Motorized {
-                name = "Motorized Infantry";
+            class Tactical_Squad {
+                name = "Tactical Squad";
+
+                class o_obtwordbearers40k_tactical_squad_tactical_squad_1 {
+                    name = "Tactical Squad 1";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2VeteranTigrus_Combi_Bolter_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Phobos_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6Initiate_2Tigrus_Bolter_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_1Primus_Melta_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6NeophyteUmbra_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_tactical_squad_tactical_squad_2 {
+                    name = "Tactical Squad 2";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_6Initiate_2Umbra_Bolter_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2initiate_2Phobos_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_1Umbra_Bolter_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4NeophytePhobos_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_tactical_squad_tactical_squad_3 {
+                    name = "Tactical Squad 3";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Combi_Bolter_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_6Initiate_3Phobos_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_5Initiate_3Umbra_Bolter_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_2NeophyteRyza_Plasma_Gun_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_tactical_squad_tactical_squad_4 {
+                    name = "Tactical Squad 4";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2VeteranPhobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_2Umbra_Bolter_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Ryza_Plasma_Gun_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Phobos_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3NeophyteTigrus_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_tactical_squad_tactical_squad_5 {
+                    name = "Tactical Squad 5";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Tigrus_Bolter_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Umbra_Bolter_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_1Phobos_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4NeophyteTigrus_Bolter_40k_01";
+                    };
+                };
 
             };
 
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
+            class Tactical_Section {
+                name = "Tactical_Section";
+
+                class o_obtwordbearers40k_tactical_section_tactical_section_1 {
+                    name = "Tactical Section 1";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6OfficerRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Primus_Melta_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_2Umbra_Bolter_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_1Phobos_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_3Umbra_Bolter_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_2Phobos_40k_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Bolter_40k_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4NeophytePhobos_40k_01";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3NeophyteUmbra_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_tactical_section_tactical_section_2 {
+                    name = "Tactical Section 2";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2VeteranTigrus_Combi_Bolter_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_2Phobos_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_4Initiate_3Primus_Melta_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_2Tigrus_Bolter_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6Initiate_2Tigrus_Combi_Bolter_40k_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_4Initiate_3Tigrus_Bolter_40k_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4NeophyteUmbra_Bolter_40k_01";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5NeophyteUmbra_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_tactical_section_tactical_section_3 {
+                    name = "Tactical Section 3";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4OfficerTigrus_Combi_Bolter_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5VeteranPhobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_6Initiate_3Umbra_Bolter_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Phobos_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2initiate_1Phobos_40k_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_2NeophytePhobos_40k_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3NeophyteTigrus_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_tactical_section_tactical_section_4 {
+                    name = "Tactical Section 4";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5OfficerRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranPhobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_4Initiate_3Phobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_3Tigrus_Bolter_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_4Initiate_3Phobos_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_2Tigrus_Bolter_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_6Initiate_2Umbra_Bolter_40k_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_1Primus_Melta_40k_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5NeophyteUmbra_Bolter_40k_01";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5NeophyteUmbra_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_tactical_section_tactical_section_5 {
+                    name = "Tactical Section 5";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2OfficerPhobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_2Tigrus_Bolter_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Tigrus_Bolter_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_2Phobos_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Phobos_40k_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6NeophyteUmbra_Bolter_40k_01";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6NeophyteUmbra_Bolter_40k_01";
+                    };
+                };
 
             };
 
-            class Support {
-                name = "Support Infantry";
+            class Devastator_Section {
+                name = "Devastator_Section";
+
+                class o_obtwordbearers40k_devastator_section_devastator_section_1 {
+                    name = "Devastator Section 1";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3OfficerTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranPhobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_6Initiate_3Multi_Melta_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_4Initiate_2Umbra_Bolter_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4Initiate_2Multi_Melta_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6Initiate_1Primus_Melta_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_2Autocannon_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4NeophytePhobos_40k_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6NeophyteTigrus_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_devastator_section_devastator_section_2 {
+                    name = "Devastator Section 2";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4OfficerRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_1Heavy_Bolter_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Ryza_Plasma_Gun_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_1Phobos_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2initiate_3Phobos_40k_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5NeophyteHeavy_Bolter_40k_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4NeophyteRotor_Cannon_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_devastator_section_devastator_section_3 {
+                    name = "Devastator Section 3";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6OfficerTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2VeteranRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranProteus_Missile_Hip_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Plasma_Cannon_Shoulder_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2Initiate_2Primus_Melta_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Umbra_Bolter_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_5Initiate_3Tigrus_Combi_Bolter_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Tigrus_Combi_Bolter_40k_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6NeophyteUmbra_Bolter_40k_01";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6NeophyteRotor_Cannon_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_devastator_section_devastator_section_4 {
+                    name = "Devastator Section 4";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2OfficerRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_2Plasma_Cannon_Hip_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Tigrus_Bolter_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Proteus_Missile_Hip_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2initiate_3Phobos_40k_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_5Initiate_3Tigrus_Bolter_40k_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6NeophyteHeavy_Bolter_40k_01";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4NeophyteUmbra_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_devastator_section_devastator_section_5 {
+                    name = "Devastator Section 5";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4OfficerTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Plasma_Cannon_Shoulder_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_2Proteus_Missile_Shoulder_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_5Initiate_3Phobos_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Phobos_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_6Initiate_3Rotor_Cannon_40k_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5Initiate_2Phobos_40k_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_2NeophyteTigrus_Bolter_40k_01";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5NeophyteTigrus_Bolter_40k_01";
+                    };
+                };
 
             };
 
-            class Mechanized {
-                name = "Mechanized Infantry";
+            class Breacher_Section {
+                name = "Breacher_Section";
+
+                class o_obtwordbearers40k_breacher_section_breacher_section_1 {
+                    name = "Breacher Section 1";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3OfficerLascutter_Shield_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Shield_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Phobos_Shield_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Phobos_Shield_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Primus_Melta_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_breacher_section_breacher_section_2 {
+                    name = "Breacher Section 2";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3OfficerPhobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Shield_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranPhobos_Shield_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Shield_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Tigrus_Shield_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Umbra_Bolter_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Tigrus_Bolter_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Tigrus_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_breacher_section_breacher_section_3 {
+                    name = "Breacher Section 3";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3OfficerLascutter_Shield_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Shield_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Umbra_Bolter_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Phobos_Shield_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Phobos_Shield_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_breacher_section_breacher_section_4 {
+                    name = "Breacher Section 4";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3OfficerTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranPhobos_Shield_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranPhobos_Shield_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Primus_Melta_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_3Initiate_3Tigrus_Shield_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Phobos_Shield_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Phobos_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_breacher_section_breacher_section_5 {
+                    name = "Breacher Section 5";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3OfficerTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Shield_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranPhobos_Shield_40k_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Tigrus_Shield_40k_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Primus_Melta_40k_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_2Phobos_Shield_40k_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3Initiate_1Tigrus_Bolter_40k_01";
+                    };
+                };
 
             };
 
-            class Armored {
-                name = "Armor";
+            class Seeker_Squad {
+                name = "Seeker_Squad";
+
+                class o_obtwordbearers40k_seeker_squad_seeker_squad_1 {
+                    name = "Seeker Squad 1";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6OfficerTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranPhobos_Atrox_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Exitus_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_seeker_squad_seeker_squad_2 {
+                    name = "Seeker Squad 2";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6OfficerPhobos_Atrox_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranPhobos_Atrox_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Exitus_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_seeker_squad_seeker_squad_3 {
+                    name = "Seeker Squad 3";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6OfficerTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranPhobos_Atrox_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranPhobos_Atrox_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_seeker_squad_seeker_squad_4 {
+                    name = "Seeker Squad 4";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6OfficerRyza_Plasma_Gun_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Exitus_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranPhobos_Atrox_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_seeker_squad_seeker_squad_5 {
+                    name = "Seeker Squad 5";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6OfficerPhobos_Atrox_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranPhobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Exitus_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                };
 
             };
 
-            class Artillery {
-                name = "Artillery";
+            class Volkite_Squad {
+                name = "Volkite_Squad";
+
+                class o_obtwordbearers40k_volkite_squad_volkite_squad_1 {
+                    name = "Volkite Squad 1";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5OfficerVolkite_Charger_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2VeteranVolkite_Charger_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6VeteranTigrus_Combi_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_volkite_squad_volkite_squad_2 {
+                    name = "Volkite Squad 2";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3OfficerVolkite_Charger_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranVolkite_Charger_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_volkite_squad_volkite_squad_3 {
+                    name = "Volkite Squad 3";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_5OfficerTigrus_Combi_Melta_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranVolkite_Charger_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranVolkite_Caliver_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_Mk_2VeteranTigrus_Combi_Melta_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_volkite_squad_volkite_squad_4 {
+                    name = "Volkite Squad 4";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_6OfficerVolkite_Caliver_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranTigrus_Combi_Plasma_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranVolkite_Charger_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranTigrus_Combi_Bolter_40k_01";
+                    };
+                };
+
+                class o_obtwordbearers40k_volkite_squad_volkite_squad_5 {
+                    name = "Volkite Squad 5";
+                    side = 0;
+                    faction = "O__BT_WordBearers_40k";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4OfficerVolkite_Caliver_40k_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranVolkite_Charger_40k_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_3VeteranPhobos_Combi_Bolter_40k_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "O_BTWord_Bearers_MK_4VeteranTigrus_Combi_Bolter_40k_01";
+                    };
+                };
 
             };
-
-            class Naval {
-                name = "Naval";
-
-            };
-
-            class Air {
-                name = "Air";
-
-            };
-
-
         };
-
     };
 };
 
@@ -186,31 +2137,45 @@ class CfgVehicles {
     #include ".\Mk2\Neophyte.hpp"
 
     #include ".\Mk3\Initiate1.hpp"
-    // #include ".\Mk3\Initiate2.hpp"
-    // #include ".\Mk3\Initiate3.hpp"
-    // #include ".\Mk3\Veteran.hpp"
-    // #include ".\Mk3\Officer.hpp"
-    // #include ".\Mk3\Neophyte.hpp"
+    #include ".\Mk3\Initiate2.hpp"
+    #include ".\Mk3\Initiate3.hpp"
+    #include ".\Mk3\Veteran.hpp"
+    #include ".\Mk3\Officer.hpp"
+    #include ".\Mk3\Neophyte.hpp"
 
-    // #include ".\Mk4\Initiate1.hpp"
-    // #include ".\Mk4\Initiate2.hpp"
-    // #include ".\Mk4\Initiate3.hpp"
-    // #include ".\Mk4\Veteran.hpp"
-    // #include ".\Mk4\Officer.hpp"
-    // #include ".\Mk4\Neophyte.hpp"
+    #include ".\Mk4\Initiate1.hpp"
+    #include ".\Mk4\Initiate2.hpp"
+    #include ".\Mk4\Initiate3.hpp"
+    #include ".\Mk4\Veteran.hpp"
+    #include ".\Mk4\Officer.hpp"
+    #include ".\Mk4\Neophyte.hpp"
 
-    // #include ".\Mk5\Initiate1.hpp"
-    // #include ".\Mk5\Initiate2.hpp"
-    // #include ".\Mk5\Initiate3.hpp"
-    // #include ".\Mk5\Veteran.hpp"
-    // #include ".\Mk5\Officer.hpp"
-    // #include ".\Mk5\Neophyte.hpp"
+    #include ".\Mk5\Initiate1.hpp"
+    #include ".\Mk5\Initiate2.hpp"
+    #include ".\Mk5\Initiate3.hpp"
+    #include ".\Mk5\Veteran.hpp"
+    #include ".\Mk5\Officer.hpp"
+    #include ".\Mk5\Neophyte.hpp"
 
-    // #include ".\Mk6\Initiate1.hpp"
-    // #include ".\Mk6\Initiate2.hpp"
-    // #include ".\Mk6\Initiate3.hpp"
-    // #include ".\Mk6\Veteran.hpp"
-    // #include ".\Mk6\Officer.hpp"
-    // #include ".\Mk6\Neophyte.hpp"
+    #include ".\Mk6\Initiate1.hpp"
+    #include ".\Mk6\Initiate2.hpp"
+    #include ".\Mk6\Initiate3.hpp"
+    #include ".\Mk6\Veteran.hpp"
+    #include ".\Mk6\Officer.hpp"
+    #include ".\Mk6\Neophyte.hpp"
 
+    #include ".\GroundVics\Imports.hpp"
+    #include ".\GroundVics\HeavyTanks.hpp"
+    #include ".\GroundVics\MediumTanks.hpp"
+    #include ".\GroundVics\APCs.hpp"
+    #include ".\GroundVics\CommandVics.hpp"
+    #include ".\GroundVics\Arty.hpp"
+    #include ".\GroundVics\SmallVehicles.hpp"
+    #include ".\GroundVics\Logi.hpp"
+
+    #include ".\AirVics\Imports.hpp"
+    #include ".\AirVics\AirTransport.hpp"
+    #include ".\AirVics\Gunships.hpp"
+    #include ".\AirVics\SmallFastAttack.hpp"
+    #include ".\AirVics\FastMovers.hpp"
 };

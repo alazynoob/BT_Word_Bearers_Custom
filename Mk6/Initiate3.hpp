@@ -1,17 +1,17 @@
-class O_BTWord_Bearers_MK_2Initiate_1Heavy_Bolter_40k_01 : TIOW_Tactical_WB_7_OCimport_02 {
+class O_BTWord_Bearers_Mk_6Initiate_3Heavy_Bolter_40k_01 : TIOW_Tactical_WB_7_OCimport_02 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "MK.2 Initiate 1 Heavy Bolter";
+    displayName = "Mk.6 Initiate 3 Heavy Bolter";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_6_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Heavy_Boltgun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Heavy_Boltgun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -21,7 +21,7 @@ class O_BTWord_Bearers_MK_2Initiate_1Heavy_Bolter_40k_01 : TIOW_Tactical_WB_7_OC
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Heavy_Boltgun_Basic","","","",{"AoD_Heavy_Boltgun_Mag",85},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Heavy_Boltgun_Mag",2,85}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Heavy_Boltgun_Mag",7,85}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Heavy_Boltgun_Basic","","","",{"AoD_Heavy_Boltgun_Mag",85},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Heavy_Boltgun_Mag",2,85}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Heavy_Boltgun_Mag",7,85}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -38,20 +38,20 @@ class O_BTWord_Bearers_MK_2Initiate_1Heavy_Bolter_40k_01 : TIOW_Tactical_WB_7_OC
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Lascannon_Hip_40k_01 : O_BTWord_Bearers_MK_2Initiate_1Heavy_Bolter_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Lascannon_Hip_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Heavy_Bolter_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Lascannon Hip";
+    displayName = "Mk.6 Initiate 3 Lascannon Hip";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_LasCannon_NoShoulder","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_LasCannon_NoShoulder","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -61,7 +61,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Lascannon_Hip_40k_01 : O_BTWord_Bearers_MK_
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_LasCannon_NoShoulder","","","",{"AoD_LasCannon_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_LasCannon_Mag",2,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_LasCannon_Mag",7,30}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_LasCannon_NoShoulder","","","",{"AoD_LasCannon_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_LasCannon_Mag",2,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_LasCannon_Mag",7,30}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -78,20 +78,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Lascannon_Hip_40k_01 : O_BTWord_Bearers_MK_
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Lascannon_Shoulder_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Lascannon_Hip_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Lascannon_Shoulder_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Lascannon_Hip_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Lascannon Shoulder";
+    displayName = "Mk.6 Initiate 3 Lascannon Shoulder";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_LasCannon_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_LasCannon_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -101,7 +101,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Lascannon_Shoulder_40k_01 : O_BTWord_Bearer
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_LasCannon_Basic","","","",{"AoD_LasCannon_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_LasCannon_Mag",2,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_LasCannon_Mag",7,30}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_LasCannon_Basic","","","",{"AoD_LasCannon_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_LasCannon_Mag",2,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_LasCannon_Mag",7,30}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -118,20 +118,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Lascannon_Shoulder_40k_01 : O_BTWord_Bearer
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Lascutter_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Lascannon_Shoulder_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Lascutter_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Lascannon_Shoulder_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Lascutter";
+    displayName = "Mk.6 Initiate 3 Lascutter";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Lascutter_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Lascutter_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -141,7 +141,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Lascutter_40k_01 : O_BTWord_Bearers_Mk_2Ini
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Lascutter_Basic","","","",{"AoD_Lascutter_Mag",10},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Lascutter_Mag",7,10}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Lascutter_Mag",10,10}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Lascutter_Basic","","","",{"AoD_Lascutter_Mag",10},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Lascutter_Mag",7,10}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Lascutter_Mag",10,10}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -158,20 +158,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Lascutter_40k_01 : O_BTWord_Bearers_Mk_2Ini
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Lascutter_Shield_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Lascutter_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Lascutter_Shield_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Lascutter_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Lascutter Shield";
+    displayName = "Mk.6 Initiate 3 Lascutter Shield";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Lascutter_Shield_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Lascutter_Shield_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -181,7 +181,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Lascutter_Shield_40k_01 : O_BTWord_Bearers_
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Lascutter_Shield_Basic","","","",{"AoD_Lascutter_Mag",10},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Lascutter_Mag",7,10}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Lascutter_Mag",10,10}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Lascutter_Shield_Basic","","","",{"AoD_Lascutter_Mag",10},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Lascutter_Mag",7,10}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Lascutter_Mag",10,10}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -198,20 +198,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Lascutter_Shield_40k_01 : O_BTWord_Bearers_
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Multi_Melta_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Lascutter_Shield_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Multi_Melta_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Lascutter_Shield_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Multi Melta";
+    displayName = "Mk.6 Initiate 3 Multi Melta";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Multi_Melta_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Multi_Melta_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -221,7 +221,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Multi_Melta_40k_01 : O_BTWord_Bearers_Mk_2I
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Multi_Melta_Basic","","","",{"AoD_Multi_Melta_Mag",20},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Multi_Melta_Mag",3,20}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Multi_Melta_Mag",8,20}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Multi_Melta_Basic","","","",{"AoD_Multi_Melta_Mag",20},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Multi_Melta_Mag",3,20}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Multi_Melta_Mag",8,20}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -238,20 +238,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Multi_Melta_40k_01 : O_BTWord_Bearers_Mk_2I
 
 };
 
-class O_BTWord_Bearers_Mk_2initiate_1Phobos_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Multi_Melta_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Phobos_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Multi_Melta_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 initiate 1 Phobos";
+    displayName = "Mk.6 Initiate 3 Phobos";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Phobos_Boltgun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Phobos_Boltgun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -261,7 +261,7 @@ class O_BTWord_Bearers_Mk_2initiate_1Phobos_40k_01 : O_BTWord_Bearers_Mk_2Initia
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Phobos_Boltgun_Basic","","","",{"AoD_Phobos_Bolt_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Phobos_Bolt_Mag",4,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Phobos_Bolt_Mag",10,30}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Phobos_Boltgun_Basic","","","",{"AoD_Phobos_Bolt_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Phobos_Bolt_Mag",4,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Phobos_Bolt_Mag",10,30}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -278,20 +278,20 @@ class O_BTWord_Bearers_Mk_2initiate_1Phobos_40k_01 : O_BTWord_Bearers_Mk_2Initia
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Phobos_Atrox_40k_01 : O_BTWord_Bearers_Mk_2initiate_1Phobos_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Phobos_Atrox_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Phobos_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Phobos Atrox";
+    displayName = "Mk.6 Initiate 3 Phobos Atrox";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Atrox_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Atrox_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -301,7 +301,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Phobos_Atrox_40k_01 : O_BTWord_Bearers_Mk_2
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Atrox_Basic","","","",{"AoD_Atrox_Bolt_Mag",15},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Atrox_Bolt_Mag",4,15}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Atrox_Bolt_Mag",10,15}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Atrox_Basic","","","",{"AoD_Atrox_Bolt_Mag",15},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Atrox_Bolt_Mag",4,15}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Atrox_Bolt_Mag",10,15}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -318,20 +318,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Phobos_Atrox_40k_01 : O_BTWord_Bearers_Mk_2
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Phobos_Combi_Bolter_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Phobos_Atrox_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Phobos_Combi_Bolter_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Phobos_Atrox_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Phobos Combi Bolter";
+    displayName = "Mk.6 Initiate 3 Phobos Combi Bolter";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Pcombi_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Pcombi_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -341,7 +341,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Phobos_Combi_Bolter_40k_01 : O_BTWord_Beare
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Pcombi_Basic","","","",{"AoD_Pcombi_Bolt_Mag",60},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Pcombi_Bolt_Mag",2,60}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Pcombi_Bolt_Mag",5,60}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Pcombi_Basic","","","",{"AoD_Pcombi_Bolt_Mag",60},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Pcombi_Bolt_Mag",2,60}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Pcombi_Bolt_Mag",5,60}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -358,20 +358,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Phobos_Combi_Bolter_40k_01 : O_BTWord_Beare
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Phobos_Shield_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Phobos_Combi_Bolter_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Phobos_Shield_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Phobos_Combi_Bolter_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Phobos Shield";
+    displayName = "Mk.6 Initiate 3 Phobos Shield";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Phobos_Shield_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Phobos_Shield_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -381,7 +381,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Phobos_Shield_40k_01 : O_BTWord_Bearers_Mk_
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Phobos_Shield_Basic","","","",{"AoD_Phobos_Bolt_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Phobos_Bolt_Mag",4,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Phobos_Bolt_Mag",10,30}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Phobos_Shield_Basic","","","",{"AoD_Phobos_Bolt_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Phobos_Bolt_Mag",4,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Phobos_Bolt_Mag",10,30}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -398,20 +398,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Phobos_Shield_40k_01 : O_BTWord_Bearers_Mk_
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Plasma_Cannon_Hip_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Phobos_Shield_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Plasma_Cannon_Hip_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Phobos_Shield_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Plasma Cannon Hip";
+    displayName = "Mk.6 Initiate 3 Plasma Cannon Hip";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Plasma_Cannon_Under","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Plasma_Cannon_Under","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -421,7 +421,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Plasma_Cannon_Hip_40k_01 : O_BTWord_Bearers
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Plasma_Cannon_Under","","","",{"AoD_Plasma_Cannon_Mag",15},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Plasma_Cannon_Mag",2,15}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Plasma_Cannon_Mag",5,15}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Plasma_Cannon_Under","","","",{"AoD_Plasma_Cannon_Mag",15},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Plasma_Cannon_Mag",2,15}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Plasma_Cannon_Mag",5,15}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -438,20 +438,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Plasma_Cannon_Hip_40k_01 : O_BTWord_Bearers
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Plasma_Cannon_Shoulder_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Plasma_Cannon_Hip_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Plasma_Cannon_Shoulder_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Plasma_Cannon_Hip_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Plasma Cannon Shoulder";
+    displayName = "Mk.6 Initiate 3 Plasma Cannon Shoulder";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Plasma_Cannon_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Plasma_Cannon_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -461,7 +461,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Plasma_Cannon_Shoulder_40k_01 : O_BTWord_Be
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Plasma_Cannon_Basic","","","",{"AoD_Plasma_Cannon_Mag",15},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Plasma_Cannon_Mag",2,15}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Plasma_Cannon_Mag",5,15}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Plasma_Cannon_Basic","","","",{"AoD_Plasma_Cannon_Mag",15},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Plasma_Cannon_Mag",2,15}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Plasma_Cannon_Mag",5,15}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -478,20 +478,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Plasma_Cannon_Shoulder_40k_01 : O_BTWord_Be
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Primus_Melta_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Plasma_Cannon_Shoulder_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Primus_Melta_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Plasma_Cannon_Shoulder_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Primus Melta";
+    displayName = "Mk.6 Initiate 3 Primus Melta";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Meltagun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Meltagun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -501,7 +501,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Primus_Melta_40k_01 : O_BTWord_Bearers_Mk_2
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Meltagun_Basic","","","",{"AoD_Meltagun_Mag",10},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Meltagun_Mag",7,10}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Meltagun_Mag",17,10}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Meltagun_Basic","","","",{"AoD_Meltagun_Mag",10},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Meltagun_Mag",7,10}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Meltagun_Mag",17,10}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -518,20 +518,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Primus_Melta_40k_01 : O_BTWord_Bearers_Mk_2
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Proteus_Missile_Hip_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Primus_Melta_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Proteus_Missile_Hip_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Primus_Melta_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Proteus Missile Hip";
+    displayName = "Mk.6 Initiate 3 Proteus Missile Hip";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"Steve_SM_MissL_02_New","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"Steve_SM_MissL_02_New","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -541,7 +541,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Proteus_Missile_Hip_40k_01 : O_BTWord_Beare
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"Steve_SM_MissL_02_New","","","",{"STEVE_30k_Rocket_Krak_Mag_NEW",8},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"STEVE_30k_Rocket_Frag_Mag_NEW",2,8}}},{"TIOW_Chaos2Powerpack_WB",{{"STEVE_30k_Rocket_Frag_Mag_NEW",2,8},{"STEVE_30k_Rocket_Krak_Mag_NEW",5,8}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"Steve_SM_MissL_02_New","","","",{"STEVE_30k_Rocket_Krak_Mag_NEW",8},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"STEVE_30k_Rocket_Frag_Mag_NEW",2,8}}},{"TIOW_Chaos2Powerpack_WB",{{"STEVE_30k_Rocket_Frag_Mag_NEW",2,8},{"STEVE_30k_Rocket_Krak_Mag_NEW",5,8}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -558,20 +558,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Proteus_Missile_Hip_40k_01 : O_BTWord_Beare
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Proteus_Missile_Shoulder_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Proteus_Missile_Hip_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Proteus_Missile_Shoulder_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Proteus_Missile_Hip_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Proteus Missile Shoulder";
+    displayName = "Mk.6 Initiate 3 Proteus Missile Shoulder";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"Steve_SM_MissL_01_New","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"Steve_SM_MissL_01_New","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -581,7 +581,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Proteus_Missile_Shoulder_40k_01 : O_BTWord_
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"Steve_SM_MissL_01_New","","","",{"STEVE_30k_Rocket_Krak_Mag_NEW",8},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"STEVE_30k_Rocket_Frag_Mag_NEW",2,8}}},{"TIOW_Chaos2Powerpack_WB",{{"STEVE_30k_Rocket_Frag_Mag_NEW",2,8},{"STEVE_30k_Rocket_Krak_Mag_NEW",5,8}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"Steve_SM_MissL_01_New","","","",{"STEVE_30k_Rocket_Krak_Mag_NEW",8},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"STEVE_30k_Rocket_Frag_Mag_NEW",2,8}}},{"TIOW_Chaos2Powerpack_WB",{{"STEVE_30k_Rocket_Frag_Mag_NEW",2,8},{"STEVE_30k_Rocket_Krak_Mag_NEW",5,8}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -598,20 +598,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Proteus_Missile_Shoulder_40k_01 : O_BTWord_
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Rotor_Cannon_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Proteus_Missile_Shoulder_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Rotor_Cannon_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Proteus_Missile_Shoulder_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Rotor Cannon";
+    displayName = "Mk.6 Initiate 3 Rotor Cannon";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Rotor_Cannon_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Rotor_Cannon_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -621,7 +621,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Rotor_Cannon_40k_01 : O_BTWord_Bearers_Mk_2
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Rotor_Cannon_Basic","","","",{"AoD_Rotor_Cannon_Mag",500},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Rotor_Cannon_Mag",2,500}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Rotor_Cannon_Mag",7,500}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Rotor_Cannon_Basic","","","",{"AoD_Rotor_Cannon_Mag",500},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Rotor_Cannon_Mag",2,500}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Rotor_Cannon_Mag",7,500}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -638,20 +638,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Rotor_Cannon_40k_01 : O_BTWord_Bearers_Mk_2
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Ryza_Plasma_Gun_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Rotor_Cannon_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Ryza_Plasma_Gun_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Rotor_Cannon_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Ryza Plasma Gun";
+    displayName = "Mk.6 Initiate 3 Ryza Plasma Gun";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Ryza_Plasma_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Ryza_Plasma_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -661,7 +661,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Ryza_Plasma_Gun_40k_01 : O_BTWord_Bearers_M
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Ryza_Plasma_Basic","","","",{"AoD_Ryza_Plasma_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Ryza_Plasma_Mag",2,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Ryza_Plasma_Mag",4,30},{"AoD_Ryza_OC_Mag",3,6}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Ryza_Plasma_Basic","","","",{"AoD_Ryza_Plasma_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Ryza_Plasma_Mag",2,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Ryza_Plasma_Mag",4,30},{"AoD_Ryza_OC_Mag",3,6}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -678,20 +678,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Ryza_Plasma_Gun_40k_01 : O_BTWord_Bearers_M
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Bolter_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Ryza_Plasma_Gun_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Bolter_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Ryza_Plasma_Gun_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Tigrus";
+    displayName = "Mk.6 Initiate 3 Tigrus";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Tigrus_Boltgun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Tigrus_Boltgun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -701,7 +701,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Bolter_40k_01 : O_BTWord_Bearers_Mk_
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Tigrus_Boltgun_Basic","","","",{"AoD_Tigrus_Bolt_Mag",50},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Tigrus_Bolt_Mag",5,50}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Tigrus_Bolt_Mag",10,50}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Tigrus_Boltgun_Basic","","","",{"AoD_Tigrus_Bolt_Mag",50},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Tigrus_Bolt_Mag",5,50}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Tigrus_Bolt_Mag",10,50}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -718,20 +718,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Bolter_40k_01 : O_BTWord_Bearers_Mk_
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Bolter_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Bolter_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Combi_Bolter_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Bolter_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Tigrus Combi Bolter";
+    displayName = "Mk.6 Initiate 3 Tigrus Combi Bolter";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Tcombi_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Tcombi_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -741,7 +741,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Bolter_40k_01 : O_BTWord_Beare
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Tcombi_Basic","","","",{"AoD_Tcombi_Bolt_Mag",100},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Tcombi_Bolt_Mag",2,100}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Tcombi_Bolt_Mag",7,100}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Tcombi_Basic","","","",{"AoD_Tcombi_Bolt_Mag",100},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Tcombi_Bolt_Mag",2,100}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Tcombi_Bolt_Mag",7,100}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -758,20 +758,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Bolter_40k_01 : O_BTWord_Beare
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Melta_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Bolter_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Combi_Melta_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Combi_Bolter_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Tigrus Combi Melta";
+    displayName = "Mk.6 Initiate 3 Tigrus Combi Melta";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Tigrus_Seek_Melta","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Tigrus_Seek_Melta","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -781,7 +781,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Melta_40k_01 : O_BTWord_Bearer
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Tigrus_Seek_Melta","","","",{"AoD_Tigrus_Bolt_Mag",50},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Tigrus_Bolt_Mag",5,50},{"AoD_Tigrus_Seek_Melta_Under_Mag",3,3}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Tigrus_Bolt_Mag",10,50},{"AoD_Tigrus_Seek_Melta_Under_Mag",10,3}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Tigrus_Seek_Melta","","","",{"AoD_Tigrus_Bolt_Mag",50},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Tigrus_Bolt_Mag",5,50},{"AoD_Tigrus_Seek_Melta_Under_Mag",3,3}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Tigrus_Bolt_Mag",10,50},{"AoD_Tigrus_Seek_Melta_Under_Mag",10,3}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -798,20 +798,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Melta_40k_01 : O_BTWord_Bearer
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Plasma_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Melta_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Combi_Plasma_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Combi_Melta_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Tigrus Combi Plasma";
+    displayName = "Mk.6 Initiate 3 Tigrus Combi Plasma";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Tigrus_Seek_Plasma","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Tigrus_Seek_Plasma","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -821,7 +821,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Plasma_40k_01 : O_BTWord_Beare
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Tigrus_Seek_Plasma","","","",{"AoD_Tigrus_Bolt_Mag",50},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1},{"AoD_Tigrus_Seek_Plasma_Under_OC_Mag",1,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Tigrus_Bolt_Mag",5,50},{"AoD_Tigrus_Seek_Plasma_Under_Mag",1,10}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Tigrus_Bolt_Mag",8,50},{"AoD_Tigrus_Seek_Plasma_Under_Mag",5,10},{"AoD_Tigrus_Seek_Plasma_Under_OC_Mag",2,1}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Tigrus_Seek_Plasma","","","",{"AoD_Tigrus_Bolt_Mag",50},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1},{"AoD_Tigrus_Seek_Plasma_Under_OC_Mag",1,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Tigrus_Bolt_Mag",5,50},{"AoD_Tigrus_Seek_Plasma_Under_Mag",1,10}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Tigrus_Bolt_Mag",8,50},{"AoD_Tigrus_Seek_Plasma_Under_Mag",5,10},{"AoD_Tigrus_Seek_Plasma_Under_OC_Mag",2,1}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -838,20 +838,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Plasma_40k_01 : O_BTWord_Beare
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Exitus_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Combi_Plasma_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Exitus_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Combi_Plasma_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Tigrus Exitus";
+    displayName = "Mk.6 Initiate 3 Tigrus Exitus";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Exitus_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Exitus_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -861,7 +861,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Exitus_40k_01 : O_BTWord_Bearers_Mk_
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Exitus_Basic","","","",{"AoD_Exitus_Bolt_Mag",20},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Exitus_Bolt_Mag",5,20}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Exitus_Bolt_Mag",14,20}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Exitus_Basic","","","",{"AoD_Exitus_Bolt_Mag",20},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Exitus_Bolt_Mag",5,20}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Exitus_Bolt_Mag",14,20}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -878,20 +878,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Exitus_40k_01 : O_BTWord_Bearers_Mk_
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Shield_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Exitus_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Shield_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Exitus_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Tigrus Shield";
+    displayName = "Mk.6 Initiate 3 Tigrus Shield";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Tigrus_Shield_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Tigrus_Shield_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -901,7 +901,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Shield_40k_01 : O_BTWord_Bearers_Mk_
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Tigrus_Shield_Basic","","","",{"AoD_Tigrus_Bolt_Mag",50},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Tigrus_Bolt_Mag",5,50}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Tigrus_Bolt_Mag",10,50}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Tigrus_Shield_Basic","","","",{"AoD_Tigrus_Bolt_Mag",50},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Tigrus_Bolt_Mag",5,50}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Tigrus_Bolt_Mag",10,50}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -918,20 +918,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Shield_40k_01 : O_BTWord_Bearers_Mk_
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Volkite_Caliver_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Tigrus_Shield_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Volkite_Caliver_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Tigrus_Shield_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Volkite Caliver";
+    displayName = "Mk.6 Initiate 3 Volkite Caliver";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Volkite_Caliver","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Volkite_Caliver","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -941,7 +941,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Volkite_Caliver_40k_01 : O_BTWord_Bearers_M
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Volkite_Caliver","","","",{"AoD_Volkite_Caliver_Mag",60},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Volkite_Caliver_Mag",2,60}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Volkite_Caliver_Mag",7,60}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Volkite_Caliver","","","",{"AoD_Volkite_Caliver_Mag",60},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Volkite_Caliver_Mag",2,60}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Volkite_Caliver_Mag",7,60}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -958,20 +958,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Volkite_Caliver_40k_01 : O_BTWord_Bearers_M
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Volkite_Charger_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Volkite_Caliver_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Volkite_Charger_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Volkite_Caliver_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Volkite Charger";
+    displayName = "Mk.6 Initiate 3 Volkite Charger";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Volkite_Charger","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Volkite_Charger","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -981,7 +981,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Volkite_Charger_40k_01 : O_BTWord_Bearers_M
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Volkite_Charger","","","",{"AoD_Volkite_Charger_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Volkite_Charger_Mag",4,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Volkite_Charger_Mag",10,30}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Volkite_Charger","","","",{"AoD_Volkite_Charger_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Volkite_Charger_Mag",4,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Volkite_Charger_Mag",10,30}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -998,20 +998,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Volkite_Charger_40k_01 : O_BTWord_Bearers_M
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Volkite_Culverin_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Volkite_Charger_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Volkite_Culverin_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Volkite_Charger_40k_01 {
     author = "Elf Supremacist";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Volkite Culverin";
+    displayName = "Mk.6 Initiate 3 Volkite Culverin";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_steve_armour_mk_3_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Volkite_Culverin","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Volkite_Culverin","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -1021,7 +1021,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Volkite_Culverin_40k_01 : O_BTWord_Bearers_
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Volkite_Culverin","","","",{"AoD_Volkite_Culverin_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Volkite_Culverin_Mag",2,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Volkite_Culverin_Mag",7,30}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Volkite_Culverin","","","",{"AoD_Volkite_Culverin_Mag",30},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_3_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Volkite_Culverin_Mag",2,30}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Volkite_Culverin_Mag",7,30}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -1038,21 +1038,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Volkite_Culverin_40k_01 : O_BTWord_Bearers_
 
 };
 
-
-class O_BTWord_Bearers_Mk_2Initiate_1Umbra_Bolter_40k_01 : O_BTWord_Bearers_Mk_2Initiate_1Volkite_Culverin_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Umbra_Bolter_40k_01 : O_BTWord_Bearers_Mk_6Initiate_3Volkite_Culverin_40k_01 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Mk.2 Initiate 1 Umbra";
+    displayName = "Mk.6 Initiate 3 Umbra";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_Steve_Armour_MK_6_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Umbra_Boltgun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Umbra_Boltgun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -1062,7 +1061,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Umbra_Bolter_40k_01 : O_BTWord_Bearers_Mk_2
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Umbra_Boltgun_Basic","","","",{"AoD_Umbra_Bolt_Mag",75},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1},{"AoD_Umbra_Bolt_Mag",3,75}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Umbra_Bolt_Mag",5,75}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Umbra_Bolt_Mag",13,75}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Umbra_Boltgun_Basic","","","",{"AoD_Umbra_Bolt_Mag",75},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_6_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1},{"AoD_Umbra_Bolt_Mag",3,75}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Umbra_Bolt_Mag",5,75}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Umbra_Bolt_Mag",13,75}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -1079,20 +1078,20 @@ class O_BTWord_Bearers_Mk_2Initiate_1Umbra_Bolter_40k_01 : O_BTWord_Bearers_Mk_2
 
 };
 
-class O_BTWord_Bearers_Mk_2Initiate_1Autocannon_01 : O_BTWord_Bearers_Mk_2Initiate_1Umbra_Bolter_40k_01 {
+class O_BTWord_Bearers_Mk_6Initiate_3Autocannon_01 : O_BTWord_Bearers_Mk_6Initiate_3Umbra_Bolter_40k_01 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "MK.2 Initiate 1 Autocannon";
+    displayName = "MK.6 Initiate 3 Autocannon";
     side = 0;
     faction = "O__BT_WordBearers_40k";
-    editorSubcategory = "BT_WordBearers_MkII_Initiate_1";
+    editorSubcategory = "BT_WordBearers_MkVI_Initiate_3";
     identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
 
-    uniformClass = "30k_Steve_Armour_MK_2_1_WB";
+    uniformClass = "30k_Steve_Armour_MK_6_3_WB";
 
-    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
-    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    linkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"TIOW_ChaosLimbs_WB","30k_Steve_Helmet_MK_6_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
 
     weapons[] = {"AoD_Autocannon_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
     respawnWeapons[] = {"AoD_Autocannon_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
@@ -1102,7 +1101,7 @@ class O_BTWord_Bearers_Mk_2Initiate_1Autocannon_01 : O_BTWord_Bearers_Mk_2Initia
 
     backpack = "TIOW_Chaos2Powerpack_WB";
 
-    ALiVE_orbatCreator_loadout[] = {{"AoD_Autocannon_Basic","","","",{"AoD_Autocannon_Mag",16},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_2_1_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1},{"AoD_Autocannon_Mag",1,16}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Autocannon_Mag",2,16}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Autocannon_Mag",5,16}}},"30k_Steve_Helmet_MK_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Autocannon_Basic","","","",{"AoD_Autocannon_Mag",16},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_Steve_Armour_MK_6_3_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1},{"AoD_Autocannon_Mag",1,16}}},{"TIOW_ChaosLimbs_WB",{{"AoD_Autocannon_Mag",2,16}}},{"TIOW_Chaos2Powerpack_WB",{{"AoD_Autocannon_Mag",5,16}}},"30k_Steve_Helmet_MK_6_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
 
 
     class EventHandlers : EventHandlers {
@@ -1118,11 +1117,3 @@ class O_BTWord_Bearers_Mk_2Initiate_1Autocannon_01 : O_BTWord_Bearers_Mk_2Initia
     ALiVE_orbatCreator_owned = 1;
 
 };
-
-
-
-
-
-
-
-

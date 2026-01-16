@@ -1037,3 +1037,83 @@ class O_BTWord_Bearers_Mk_2VeteranVolkite_Culverin_40k_01 : O_BTWord_Bearers_Mk_
     ALiVE_orbatCreator_owned = 1;
 
 };
+
+class O_BTWord_Bearers_Mk_2VeteranUmbra_Bolter_40k_01 : O_BTWord_Bearers_Mk_2VeteranVolkite_Culverin_40k_01 {
+    author = "[SB] Balderic Caeledis";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Mk.2 Veteran Umbra";
+    side = 0;
+    faction = "O__BT_WordBearers_40k";
+    editorSubcategory = "BT_WordBearers_MkII_Veteran";
+    identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
+
+    uniformClass = "30k_steve_armour_mk_2_Vet_WB";
+
+    linkedItems[] = {"WBA_ChaosPaul9_2","30k_steve_helmet_mk_2_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"WBA_ChaosPaul9_2","30k_steve_helmet_mk_2_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+
+    weapons[] = {"AoD_Umbra_Boltgun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
+    respawnWeapons[] = {"AoD_Umbra_Boltgun_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
+
+    magazines[] = {"AoD_Umbra_Bolt_Mag","Laserbatteries","AoD_Umbra_Bolt_Mag","Laserbatteries"};
+    respawnMagazines[] = {"AoD_Umbra_Bolt_Mag","Laserbatteries","AoD_Umbra_Bolt_Mag","Laserbatteries"};
+
+    backpack = "tiow_chaos1powerpack_WB";
+
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Umbra_Boltgun_Basic","","","",{"AoD_Umbra_Bolt_Mag",75},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_2_Vet_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1},{"AoD_Umbra_Bolt_Mag",3,75}}},{"WBA_ChaosPaul9_2",{{"AoD_Umbra_Bolt_Mag",5,75}}},{"tiow_chaos1powerpack_WB",{{"AoD_Umbra_Bolt_Mag",13,75}}},"30k_steve_helmet_mk_2_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+
+
+    class EventHandlers : EventHandlers {
+        class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+        class ALiVE_orbatCreator {
+            init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+        };
+
+    };
+
+    // custom attributes (do not delete)
+    ALiVE_orbatCreator_owned = 1;
+
+};
+
+class O_BTWord_Bearers_Mk_2VeteranAutocannon_01 : O_BTWord_Bearers_Mk_2VeteranUmbra_Bolter_40k_01 {
+    author = "[SB] Balderic Caeledis";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Mk.2 Veteran Autocannon";
+    side = 0;
+    faction = "O__BT_WordBearers_40k";
+    editorSubcategory = "BT_WordBearers_MkII_Veteran";
+    identityTypes[] = {"TIOW_Marine_Head","LanguageENGVR_F","NoGlasses"};
+
+    uniformClass = "30k_steve_armour_mk_2_Vet_WB";
+
+    linkedItems[] = {"WBA_ChaosPaul9_2","30k_steve_helmet_mk_2_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+    respawnlinkedItems[] = {"WBA_ChaosPaul9","30k_steve_helmet_mk_2_2_WB","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"};
+
+    weapons[] = {"AoD_Autocannon_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
+    respawnWeapons[] = {"AoD_Autocannon_Basic","Web_Melee_Chain_Test","ic_cad_magnoculars"};
+
+    magazines[] = {"AoD_Autocannon_Mag","Laserbatteries","AoD_Autocannon_Mag","Laserbatteries"};
+    respawnMagazines[] = {"AoD_Autocannon_Mag","Laserbatteries","AoD_Autocannon_Mag","Laserbatteries"};
+
+    backpack = "tiow_chaos1powerpack_WB";
+
+    ALiVE_orbatCreator_loadout[] = {{"AoD_Autocannon_Basic","","","",{"AoD_Autocannon_Mag",16},{},""},{},{"Web_Melee_Chain_Test","","","",{},{},""},{"30k_steve_armour_mk_2_Vet_WB",{{"ACE_elasticBandage",20},{"ACE_tourniquet",7},{"ACE_fieldDressing",3},{"ACE_packingBandage",3},{"ACE_morphine",3},{"TIOW_sm_frag_grenade_mag",1,1},{"BT_Frag_Grenade_Alt_Mag",5,1},{"BT_Krak_Grenade_Mag",5,1},{"BT_Smoke_Grenade_Mag",5,1},{"AoD_Autocannon_Mag",1,16}}},{"WBA_ChaosPaul9",{{"AoD_Autocannon_Mag",2,16}}},{"tiow_chaos1powerpack_WB",{{"AoD_Autocannon_Mag",5,16}}},"30k_steve_helmet_mk_2_2_WB","",{"ic_cad_magnoculars","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","AOD_INVS_NVG"}};
+
+
+    class EventHandlers : EventHandlers {
+        class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+        class ALiVE_orbatCreator {
+            init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+        };
+
+    };
+
+    // custom attributes (do not delete)
+    ALiVE_orbatCreator_owned = 1;
+
+};
