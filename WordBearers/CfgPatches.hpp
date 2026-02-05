@@ -811,7 +811,23 @@ class CfgPatches {
             "O_OBTWordBearers40k_WB_IW_Attack_Bike_Bolter_01",
             "O_OBTWordBearers40k_WB_IW_Attack_Bike_Melta_01",
             "O_OBTWordBearers40k_WB_IW_Rapier_Laser_Destroyer_01",
-            "O_OBTWordBearers40k_WB_IW_Rapier_Quad_Heavy_Bolters_01"
+            "O_OBTWordBearers40k_WB_IW_Rapier_Quad_Heavy_Bolters_01",
+            "O_OBTWordBearers40k_WB_IW_Land_Speeder_Tornado_01",
+            "O_OBTWordBearers40k_WB_IW_Land_Speeder_Typhoon_01",
+            "O_OBTWordBearers40k_WB_IW_Scimitar_Jetbike_Heavy_Bolter_01",
+            "O_OBTWordBearers40k_WB_IW_Scimitar_Jetbike_Multi_Melta_01",
+            "O_OBTWordBearers40k_WB_IW_Scimitar_Jetbike_Plasma_Cannon_01",
+            "O_OBTWordBearers40k_WB_IW_Scimitar_Jetbike_Volkite_01",
+            "O_OBTWordBearers40k_WB_IW_Thunderhawk_Gunship_01",
+            "O_OBTWordBearers40k_WB_IW_Fire_Raptor_Gunship_01",
+            "O_OBTWordBearers40k_WB_IW_Storm_Eagle_Gunship_01",
+            "O_OBTWordBearers40k_WB_IW_Xiphon_Interceptor_01",
+            "O_OBTWordBearers40k_WB_IW_Xiphon_Bomber_01",
+            "O_OBTWordBearers40k_WB_IW_Land_Speeder_Storm_01",
+            "O_OBTWordBearers40k_WB_IW_Caestus_Assault_Ram_01",
+            "O_OBTWordBearers40k_WB_IW_Columba_Dropship_01",
+            "O_OBTWordBearers40k_WB_IW_Thunderhawk_Transport_01"
+
         };
         weapons[] = {};
         addonRootClass = "Lazy_Custom_Factions_Mod";
