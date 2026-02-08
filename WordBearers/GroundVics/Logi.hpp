@@ -1,8 +1,8 @@
-class O_OBTWordBearers40k_WB_IW_Hippo_Atlas_01 : AoD_Hippo_Tank_CSG_Logi_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Hippo_Atlas_01 : AoD_Hippo_Tank_CSG_Logi_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Hippo Atlas";
+    displayName = "WB Hippo Atlas";
     side = 0;
     editorSubcategory = "BT_WordBearers_Logi_Vehicles";
     faction = "O__BT_WordBearers_40k";
@@ -28,11 +28,11 @@ class O_OBTWordBearers40k_WB_IW_Hippo_Atlas_01 : AoD_Hippo_Tank_CSG_Logi_OCimpor
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Hippo_Judicator_01 : AoD_Hippo_Tank_CSG_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Hippo_Judicator_01 : AoD_Hippo_Tank_CSG_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Hippo Judicator";
+    displayName = "WB Hippo Judicator";
     side = 0;
     editorSubcategory = "BT_WordBearers_Logi_Vehicles";
     faction = "O__BT_WordBearers_40k";
@@ -62,11 +62,11 @@ class O_OBTWordBearers40k_WB_IW_Hippo_Judicator_01 : AoD_Hippo_Tank_CSG_OCimport
 };
 
 
-class O_OBTWordBearers40k_WB_IW_Hippo_Bastion_01 : AoD_Hippo_Tank_CSG_HB_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Hippo_Bastion_01 : AoD_Hippo_Tank_CSG_HB_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Hippo Bastion";
+    displayName = "WB Hippo Bastion";
     side = 0;
     editorSubcategory = "BT_WordBearers_Logi_Vehicles";
     faction = "O__BT_WordBearers_40k";
@@ -98,11 +98,11 @@ class O_OBTWordBearers40k_WB_IW_Hippo_Bastion_01 : AoD_Hippo_Tank_CSG_HB_OCimpor
 
 
 
-class O_OBTWordBearers40k_WB_IW_Hippo_Munitorum_01 : AoD_Hippo_Tank_CSG_Arse_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Hippo_Munitorum_01 : AoD_Hippo_Tank_CSG_Arse_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Hippo Munitorum";
+    displayName = "WB Hippo Munitorum";
     side = 0;
     editorSubcategory = "BT_WordBearers_Logi_Vehicles";
     faction = "O__BT_WordBearers_40k";
@@ -128,11 +128,11 @@ class O_OBTWordBearers40k_WB_IW_Hippo_Munitorum_01 : AoD_Hippo_Tank_CSG_Arse_OCi
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Rapier_Lumentum_01 : AoD_Rapier_Tank_CSM_UGV_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Rapier_Lumentum_01 : AoD_Rapier_Tank_CSM_UGV_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Rapier Lumentum";
+    displayName = "WB Rapier Lumentum";
     side = 0;
     editorSubcategory = "BT_WordBearers_Logi_Vehicles";
     faction = "O__BT_WordBearers_40k";

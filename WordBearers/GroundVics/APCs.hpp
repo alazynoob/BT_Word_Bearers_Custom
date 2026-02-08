@@ -1,8 +1,8 @@
-class O_OBTWordBearers40k_WB_IW_Land_Raider_Phobos_01 : AoD_Land_Raider_Tank_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Land_Raider_Phobos_01 : AoD_Land_Raider_Tank_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Land Raider Phobos";
+    displayName = "WB Land Raider Phobos";
     side = 0;
     editorSubcategory = "BT_WordBearers_APCs"; 
     faction = "O__BT_WordBearers_40k";
@@ -29,11 +29,11 @@ class O_OBTWordBearers40k_WB_IW_Land_Raider_Phobos_01 : AoD_Land_Raider_Tank_IW_
     ALiVE_orbatCreator_owned = 1;
 
 };
-class O_OBTWordBearers40k_WB_IW_Deimos_Rhino_01 : AoD_Rhino_Tank_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Deimos_Rhino_01 : AoD_Rhino_Tank_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Deimos Rhino";
+    displayName = "WB Deimos Rhino";
     side = 0;
     editorSubcategory = "BT_WordBearers_APCs"; 
     faction = "O__BT_WordBearers_40k";
@@ -59,11 +59,11 @@ class O_OBTWordBearers40k_WB_IW_Deimos_Rhino_01 : AoD_Rhino_Tank_IW_OCimport_02 
     ALiVE_orbatCreator_owned = 1;
 
 };
-class O_OBTWordBearers40k_WB_IW_Razorback_Heavy_Bolter_01 : TIOW_SM_Razorback_WB_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Razorback_Heavy_Bolter_01 : TIOW_SM_Razorback_WB_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Razorback (Heavy Bolter)";
+    displayName = "WB Razorback (Heavy Bolter)";
     side = 0;
     editorSubcategory = "BT_WordBearers_APCs"; 
     faction = "O__BT_WordBearers_40k";
@@ -90,11 +90,11 @@ class O_OBTWordBearers40k_WB_IW_Razorback_Heavy_Bolter_01 : TIOW_SM_Razorback_WB
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Razorback_Assault_Cannon_01 : TIOW_SM_Razorback_AC_WB_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Razorback_Assault_Cannon_01 : TIOW_SM_Razorback_AC_WB_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Razorback (Assault Cannon)";
+    displayName = "WB Razorback (Assault Cannon)";
     side = 0;
     editorSubcategory = "BT_WordBearers_APCs"; 
     faction = "O__BT_WordBearers_40k";
@@ -121,11 +121,11 @@ class O_OBTWordBearers40k_WB_IW_Razorback_Assault_Cannon_01 : TIOW_SM_Razorback_
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Razorback_Lascannon_01 : TIOW_SM_Razorback_LC_WB_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Razorback_Lascannon_01 : TIOW_SM_Razorback_LC_WB_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Razorback (Lascannon)";
+    displayName = "WB Razorback (Lascannon)";
     side = 0;
     editorSubcategory = "BT_WordBearers_APCs"; 
     faction = "O__BT_WordBearers_40k";

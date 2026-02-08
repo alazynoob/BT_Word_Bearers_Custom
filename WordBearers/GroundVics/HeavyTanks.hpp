@@ -1,8 +1,8 @@
-class O_OBTWordBearers40k_WB_IW_Sicarian_Battle_Tank_01 : AoD_Sic_Tank_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Sicarian_Battle_Tank_01 : AoD_Sic_Tank_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Sicarian Battle Tank";
+    displayName = "WB Sicarian Battle Tank";
     side = 0;
     editorSubcategory = "BT_WordBearers_Heavy_Tanks"; 
     faction = "O__BT_WordBearers_40k";
@@ -31,11 +31,11 @@ class O_OBTWordBearers40k_WB_IW_Sicarian_Battle_Tank_01 : AoD_Sic_Tank_IW_OCimpo
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Sicarian_Punisher_Tank_01 : AoD_Sic_Tank_Punisher_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Sicarian_Punisher_Tank_01 : AoD_Sic_Tank_Punisher_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Sicarian Punisher Tank";
+    displayName = "WB Sicarian Punisher Tank";
     side = 0;
     editorSubcategory = "BT_WordBearers_Heavy_Tanks"; 
     faction = "O__BT_WordBearers_40k";
@@ -64,11 +64,11 @@ class O_OBTWordBearers40k_WB_IW_Sicarian_Punisher_Tank_01 : AoD_Sic_Tank_Punishe
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Sicarian_Vanquisher_Tank_01 : AoD_Sic_Tank_Cannon_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Sicarian_Vanquisher_Tank_01 : AoD_Sic_Tank_Cannon_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Sicarian Vanquisher Tank";
+    displayName = "WB Sicarian Vanquisher Tank";
     side = 0;
     editorSubcategory = "BT_WordBearers_Heavy_Tanks"; 
     faction = "O__BT_WordBearers_40k";
@@ -97,11 +97,11 @@ class O_OBTWordBearers40k_WB_IW_Sicarian_Vanquisher_Tank_01 : AoD_Sic_Tank_Canno
 
 };
 
-class O_OBTWordBearers40k_Sicarian_Venator_Tank_Hunter_Laser_01 : AoD_Sic_Tank_V_IW_OCimport_02 {
+class O_OBTWordBearers40k_Sicarian_Venator_Tank_Hunter_Laser_01 : AoD_Sic_Tank_V_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Sicarian Venator Tank Hunter (Laser)";
+    displayName = "WB Sicarian Venator Tank Hunter (Laser)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Heavy_Tanks"; 
     faction = "O__BT_WordBearers_40k";
@@ -129,11 +129,11 @@ class O_OBTWordBearers40k_Sicarian_Venator_Tank_Hunter_Laser_01 : AoD_Sic_Tank_V
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Sicarian_Venator_Tank_Hunter_Bolter_01 : AoD_Sic_Tank_V_HB_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Sicarian_Venator_Tank_Hunter_Bolter_01 : AoD_Sic_Tank_V_HB_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Sicarian Venator Tank Hunter (Bolter)";
+    displayName = "WB Sicarian Venator Tank Hunter (Bolter)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Heavy_Tanks"; 
     faction = "O__BT_WordBearers_40k";
@@ -161,11 +161,11 @@ class O_OBTWordBearers40k_WB_IW_Sicarian_Venator_Tank_Hunter_Bolter_01 : AoD_Sic
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Sicarian_Vindicator_Siege_Tank_01 : AoD_Sic_Tank_Vind_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Sicarian_Vindicator_Siege_Tank_01 : AoD_Sic_Tank_Vind_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Sicarian Vindicator Siege Tank";
+    displayName = "WB Sicarian Vindicator Siege Tank";
     side = 0;
     editorSubcategory = "BT_WordBearers_Heavy_Tanks"; 
     faction = "O__BT_WordBearers_40k";

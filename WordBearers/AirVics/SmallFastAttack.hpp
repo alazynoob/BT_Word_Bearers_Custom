@@ -1,8 +1,8 @@
-class O_OBTWordBearers40k_WB_IW_Land_Speeder_Tornado_01 : 30k_Steve_WB_Tornado_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Land_Speeder_Tornado_01 : 30k_Steve_WB_Tornado_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Land Speeder Tornado";
+    displayName = "WB Land Speeder Tornado";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Fast_Attack";
     faction = "O__BT_WordBearers_40k";
@@ -28,11 +28,11 @@ class O_OBTWordBearers40k_WB_IW_Land_Speeder_Tornado_01 : 30k_Steve_WB_Tornado_O
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Land_Speeder_Typhoon_01 : 30k_Steve_WB_Typhon_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Land_Speeder_Typhoon_01 : 30k_Steve_WB_Typhon_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Land Speeder Typhoon";
+    displayName = "WB Land Speeder Typhoon";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Fast_Attack";
     faction = "O__BT_WordBearers_40k";
@@ -58,11 +58,11 @@ class O_OBTWordBearers40k_WB_IW_Land_Speeder_Typhoon_01 : 30k_Steve_WB_Typhon_OC
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Scimitar_Jetbike_Heavy_Bolter_01 : 30k_Steve_WB_Jetbike_HB_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Scimitar_Jetbike_Heavy_Bolter_01 : 30k_Steve_WB_Jetbike_HB_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Scimitar Jetbike (Heavy Bolter)";
+    displayName = "WB Scimitar Jetbike (Heavy Bolter)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Fast_Attack";
     faction = "O__BT_WordBearers_40k";
@@ -83,11 +83,11 @@ class O_OBTWordBearers40k_WB_IW_Scimitar_Jetbike_Heavy_Bolter_01 : 30k_Steve_WB_
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Scimitar_Jetbike_Multi_Melta_01 : 30k_Steve_WB_Jetbike_MM_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Scimitar_Jetbike_Multi_Melta_01 : 30k_Steve_WB_Jetbike_MM_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Scimitar Jetbike (Multi Melta)";
+    displayName = "WB Scimitar Jetbike (Multi Melta)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Fast_Attack";
     faction = "O__BT_WordBearers_40k";
@@ -108,11 +108,11 @@ class O_OBTWordBearers40k_WB_IW_Scimitar_Jetbike_Multi_Melta_01 : 30k_Steve_WB_J
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Scimitar_Jetbike_Plasma_Cannon_01 : 30k_Steve_WB_Jetbike_PC_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Scimitar_Jetbike_Plasma_Cannon_01 : 30k_Steve_WB_Jetbike_PC_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Scimitar Jetbike (Plasma Cannon)";
+    displayName = "WB Scimitar Jetbike (Plasma Cannon)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Fast_Attack";
     faction = "O__BT_WordBearers_40k";
@@ -133,11 +133,11 @@ class O_OBTWordBearers40k_WB_IW_Scimitar_Jetbike_Plasma_Cannon_01 : 30k_Steve_WB
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Scimitar_Jetbike_Volkite_01 : 30k_Steve_WB_Jetbike_VLK_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Scimitar_Jetbike_Volkite_01 : 30k_Steve_WB_Jetbike_VLK_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Scimitar Jetbike (Volkite)";
+    displayName = "WB Scimitar Jetbike (Volkite)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Fast_Attack";
     faction = "O__BT_WordBearers_40k";

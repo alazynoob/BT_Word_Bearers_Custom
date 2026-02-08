@@ -2,7 +2,7 @@ class O_OBTWordBearers40k_WB_IW_Thunderhawk_Gunship_01 : Thunderhawk_1_IW_TIOW_O
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Thunderhawk Gunship";
+    displayName = "WB Thunderhawk Gunship";
     side = 0;
     editorSubcategory = "BT_WordBearers_Gunships";
     faction = "O__BT_WordBearers_40k";
@@ -30,11 +30,11 @@ class O_OBTWordBearers40k_WB_IW_Thunderhawk_Gunship_01 : Thunderhawk_1_IW_TIOW_O
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Fire_Raptor_Gunship_01 : AoD_FR_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Fire_Raptor_Gunship_01 : AoD_FR_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Fire Raptor Gunship";
+    displayName = "WB Fire Raptor Gunship";
     side = 0;
     editorSubcategory = "BT_WordBearers_Gunships";
     faction = "O__BT_WordBearers_40k";
@@ -61,11 +61,11 @@ class O_OBTWordBearers40k_WB_IW_Fire_Raptor_Gunship_01 : AoD_FR_IW_OCimport_02 {
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Storm_Eagle_Gunship_01 : AoD_SE_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Storm_Eagle_Gunship_01 : AoD_SE_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Storm Eagle Gunship";
+    displayName = "WB Storm Eagle Gunship";
     side = 0;
     editorSubcategory = "BT_WordBearers_Gunships";
     faction = "O__BT_WordBearers_40k";

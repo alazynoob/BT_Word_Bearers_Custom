@@ -45,13 +45,13 @@ class 30k_Steve_WB_Storm_OCimport_02 : 30k_Steve_WB_Storm_OCimport_01 {
     };
 };
 
-class AoD_Assault_Ram_IW;
-class AoD_Assault_Ram_IW_OCimport_01 : AoD_Assault_Ram_IW { scope = 0; class EventHandlers; };
-class AoD_Assault_Ram_IW_OCimport_02 : AoD_Assault_Ram_IW_OCimport_01 { scope = 0; class EventHandlers; };
+class AoD_Assault_Ram_WE;
+class AoD_Assault_Ram_WE_OCimport_01 : AoD_Assault_Ram_WE { scope = 0; class EventHandlers; };
+class AoD_Assault_Ram_WE_OCimport_02 : AoD_Assault_Ram_WE_OCimport_01 { scope = 0; class EventHandlers; };
 
-class AoD_Columba_Ram_IW;
-class AoD_Columba_Ram_IW_OCimport_01 : AoD_Columba_Ram_IW { scope = 0; class EventHandlers; };
-class AoD_Columba_Ram_IW_OCimport_02 : AoD_Columba_Ram_IW_OCimport_01 { scope = 0; class EventHandlers; };
+class AoD_Columba_Ram_WE;
+class AoD_Columba_Ram_WE_OCimport_01 : AoD_Columba_Ram_WE { scope = 0; class EventHandlers; };
+class AoD_Columba_Ram_WE_OCimport_02 : AoD_Columba_Ram_WE_OCimport_01 { scope = 0; class EventHandlers; };
 
 class Thunderhawk_2_AV_TIOW;
 class Thunderhawk_2_AV_TIOW_OCimport_01 : Thunderhawk_2_AV_TIOW { scope = 0; class EventHandlers; class Turrets; };
@@ -75,9 +75,9 @@ class Thunderhawk_1_IW_TIOW_OCimport_02 : Thunderhawk_1_IW_TIOW_OCimport_01 {
     };
 };
 
-class AoD_FR_IW;
-class AoD_FR_IW_OCimport_01 : AoD_FR_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_FR_IW_OCimport_02 : AoD_FR_IW_OCimport_01 { 
+class AoD_FR_WE;
+class AoD_FR_WE_OCimport_01 : AoD_FR_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_FR_WE_OCimport_02 : AoD_FR_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class GunnerTurret_01;
@@ -85,15 +85,15 @@ class AoD_FR_IW_OCimport_02 : AoD_FR_IW_OCimport_01 {
     };
 };
 
-class AoD_SE_IW;
-class AoD_SE_IW_OCimport_01 : AoD_SE_IW { scope = 0; class EventHandlers; };
-class AoD_SE_IW_OCimport_02 : AoD_SE_IW_OCimport_01 { scope = 0; class EventHandlers; };
+class AoD_SE_WE;
+class AoD_SE_WE_OCimport_01 : AoD_SE_WE { scope = 0; class EventHandlers; };
+class AoD_SE_WE_OCimport_02 : AoD_SE_WE_OCimport_01 { scope = 0; class EventHandlers; };
 
-class AoD_Xiphon_IW;
-class AoD_Xiphon_IW_OCimport_01 : AoD_Xiphon_IW { scope = 0; class EventHandlers; };
-class AoD_Xiphon_IW_OCimport_02 : AoD_Xiphon_IW_OCimport_01 { scope = 0; class EventHandlers; };
+class AoD_Xiphon_WE;
+class AoD_Xiphon_WE_OCimport_01 : AoD_Xiphon_WE { scope = 0; class EventHandlers; };
+class AoD_Xiphon_WE_OCimport_02 : AoD_Xiphon_WE_OCimport_01 { scope = 0; class EventHandlers; };
 
-class AoD_Xiphon_IW_B;
-class AoD_Xiphon_IW_B_OCimport_01 : AoD_Xiphon_IW_B { scope = 0; class EventHandlers; };
-class AoD_Xiphon_IW_B_OCimport_02 : AoD_Xiphon_IW_B_OCimport_01 { scope = 0; class EventHandlers; };
+class AoD_Xiphon_WE_B;
+class AoD_Xiphon_WE_B_OCimport_01 : AoD_Xiphon_WE_B { scope = 0; class EventHandlers; };
+class AoD_Xiphon_WE_B_OCimport_02 : AoD_Xiphon_WE_B_OCimport_01 { scope = 0; class EventHandlers; };
 

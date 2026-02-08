@@ -1,8 +1,8 @@
-class O_OBTWordBearers40k_WB_IW_Whirlwind_Arty_01 : AoD_Whirl_Tank_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Whirlwind_Arty_01 : AoD_Whirl_Tank_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Whirlwind (Arty)";
+    displayName = "WB Whirlwind (Arty)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Artillery_Vehicles"; 
     faction = "O__BT_WordBearers_40k";
@@ -30,15 +30,15 @@ class O_OBTWordBearers40k_WB_IW_Whirlwind_Arty_01 : AoD_Whirl_Tank_IW_OCimport_0
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Whirlwind_AA_01 : AoD_Whirl_Tank_AA_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Whirlwind_AA_01 : AoD_Whirl_Tank_AA_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Whirlwind (AA)";
+    displayName = "WB Whirlwind (AA)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Artillery_Vehicles"; 
     faction = "O__BT_WordBearers_40k";
-    crew = "TIOW_Tactical_IW_1";
+    crew = "TIOW_Tactical_WE_1";
 
     class Turrets : Turrets {
         class Main_AA : Main_AA { gunnerType = "O_BTWord_Bearers_MK_2OfficerLascannon_Shoulder_40k_01"; };
@@ -63,11 +63,11 @@ class O_OBTWordBearers40k_WB_IW_Whirlwind_AA_01 : AoD_Whirl_Tank_AA_IW_OCimport_
 };
 
 
-class O_OBTWordBearers40k_WB_IW_Hippo_Deng_Mortis_01 : AoD_Hippo_Tank_CSG_Mort_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Hippo_Deng_Mortis_01 : AoD_Hippo_Tank_CSG_Mort_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Hippo Deng-Mortis";
+    displayName = "WB Hippo Deng-Mortis";
     side = 0;
     editorSubcategory = "BT_WordBearers_Artillery_Vehicles";
     faction = "O__BT_WordBearers_40k";

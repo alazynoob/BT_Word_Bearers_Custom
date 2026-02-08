@@ -1,8 +1,8 @@
-class O_OBTWordBearers40k_WB_IW_Deimos_Predator_Annihilator_01 : AoD_Pred_Tank_Las_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Deimos_Predator_Annihilator_01 : AoD_Pred_Tank_Las_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Deimos Predator Annihilator";
+    displayName = "WB Deimos Predator Annihilator";
     side = 0;
     editorSubcategory = "BT_WordBearers_Medium_Tanks"; 
     faction = "O__BT_WordBearers_40k";
@@ -29,11 +29,11 @@ class O_OBTWordBearers40k_WB_IW_Deimos_Predator_Annihilator_01 : AoD_Pred_Tank_L
     ALiVE_orbatCreator_owned = 1;
 
 };
-class O_OBTWordBearers40k_WB_IW_Deimos_Predator_Destructor_01 : AoD_Pred_Tank_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Deimos_Predator_Destructor_01 : AoD_Pred_Tank_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Deimos Predator Destructor";
+    displayName = "WB Deimos Predator Destructor";
     side = 0;
     editorSubcategory = "BT_WordBearers_Medium_Tanks"; 
     faction = "O__BT_WordBearers_40k";
@@ -61,11 +61,11 @@ class O_OBTWordBearers40k_WB_IW_Deimos_Predator_Destructor_01 : AoD_Pred_Tank_IW
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Deimos_Predator_Infernus_01 : AoD_Pred_Tank_Melt_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Deimos_Predator_Infernus_01 : AoD_Pred_Tank_Melt_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Deimos Predator Infernus";
+    displayName = "WB Deimos Predator Infernus";
     side = 0;
     editorSubcategory = "BT_WordBearers_Medium_Tanks"; 
     faction = "O__BT_WordBearers_40k";
@@ -93,11 +93,11 @@ class O_OBTWordBearers40k_WB_IW_Deimos_Predator_Infernus_01 : AoD_Pred_Tank_Melt
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Deimos_Predator_Neutron_Blaster_01 : AoD_Pred_Tank_NL_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Deimos_Predator_Neutron_Blaster_01 : AoD_Pred_Tank_NL_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Deimos Predator Neutron Blaster";
+    displayName = "WB Deimos Predator Neutron Blaster";
     side = 0;
     editorSubcategory = "BT_WordBearers_Medium_Tanks"; 
     faction = "O__BT_WordBearers_40k";

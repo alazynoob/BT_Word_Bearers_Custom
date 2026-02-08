@@ -1,8 +1,8 @@
-class O_OBTWordBearers40k_Land_Raider_Phobos_Command_01 : AoD_Land_Raider_Command_IW_OCimport_02 {
+class O_OBTWordBearers40k_Land_Raider_Phobos_Command_01 : AoD_Land_Raider_Command_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Land Raider Phobos Command";
+    displayName = "WB Land Raider Phobos Command";
     side = 0;
     editorSubcategory = "BT_WordBearers_Command_Vehicles"; 
     faction = "O__BT_WordBearers_40k";
@@ -31,11 +31,11 @@ class O_OBTWordBearers40k_Land_Raider_Phobos_Command_01 : AoD_Land_Raider_Comman
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Damocles_Command_Rhino_01 : AoD_Rhino_Tank_Command_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Damocles_Command_Rhino_01 : AoD_Rhino_Tank_Command_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Damocles Command Rhino";
+    displayName = "WB Damocles Command Rhino";
     side = 0;
     editorSubcategory = "BT_WordBearers_Command_Vehicles"; 
     faction = "O__BT_WordBearers_40k";

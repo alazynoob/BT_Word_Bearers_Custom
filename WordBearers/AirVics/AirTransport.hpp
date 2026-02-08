@@ -1,8 +1,8 @@
-class O_OBTWordBearers40k_WB_IW_Land_Speeder_Storm_01 : 30k_Steve_WB_Storm_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Land_Speeder_Storm_01 : 30k_Steve_WB_Storm_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Land Speeder Storm";
+    displayName = "WB Land Speeder Storm";
     side = 0;
     editorSubcategory = "BT_WordBearers_Air_Transport";
     faction = "O__BT_WordBearers_40k";
@@ -32,11 +32,11 @@ class O_OBTWordBearers40k_WB_IW_Land_Speeder_Storm_01 : 30k_Steve_WB_Storm_OCimp
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Caestus_Assault_Ram_01 : AoD_Assault_Ram_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Caestus_Assault_Ram_01 : AoD_Assault_Ram_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Caestus Assault Ram";
+    displayName = "WB Caestus Assault Ram";
     side = 0;
     editorSubcategory = "BT_WordBearers_Air_Transport";
     faction = "O__BT_WordBearers_40k";
@@ -57,11 +57,11 @@ class O_OBTWordBearers40k_WB_IW_Caestus_Assault_Ram_01 : AoD_Assault_Ram_IW_OCim
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Columba_Dropship_01 : AoD_Columba_Ram_IW_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Columba_Dropship_01 : AoD_Columba_Ram_WE_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Columba Dropship";
+    displayName = "WB Columba Dropship";
     side = 0;
     editorSubcategory = "BT_WordBearers_Air_Transport";
     faction = "O__BT_WordBearers_40k";
@@ -86,7 +86,7 @@ class O_OBTWordBearers40k_WB_IW_Thunderhawk_Transport_01 : Thunderhawk_2_AV_TIOW
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Thunderhawk Transport";
+    displayName = "WB Thunderhawk Transport";
     side = 0;
     editorSubcategory = "BT_WordBearers_Air_Transport";
     faction = "O__BT_WordBearers_40k";

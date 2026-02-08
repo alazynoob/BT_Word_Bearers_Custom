@@ -1,6 +1,6 @@
-class AoD_Sic_Tank_IW;
-class AoD_Sic_Tank_IW_OCimport_01 : AoD_Sic_Tank_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Sic_Tank_IW_OCimport_02 : AoD_Sic_Tank_IW_OCimport_01 { 
+class AoD_Sic_Tank_WE;
+class AoD_Sic_Tank_WE_OCimport_01 : AoD_Sic_Tank_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Sic_Tank_WE_OCimport_02 : AoD_Sic_Tank_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class CommanderOptics;
@@ -10,9 +10,9 @@ class AoD_Sic_Tank_IW_OCimport_02 : AoD_Sic_Tank_IW_OCimport_01 {
     };
 };
 
-class AoD_Sic_Tank_Punisher_IW;
-class AoD_Sic_Tank_Punisher_IW_OCimport_01 : AoD_Sic_Tank_Punisher_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Sic_Tank_Punisher_IW_OCimport_02 : AoD_Sic_Tank_Punisher_IW_OCimport_01 { 
+class AoD_Sic_Tank_Punisher_WE;
+class AoD_Sic_Tank_Punisher_WE_OCimport_01 : AoD_Sic_Tank_Punisher_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Sic_Tank_Punisher_WE_OCimport_02 : AoD_Sic_Tank_Punisher_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class CommanderOptics;
@@ -22,9 +22,9 @@ class AoD_Sic_Tank_Punisher_IW_OCimport_02 : AoD_Sic_Tank_Punisher_IW_OCimport_0
     };
 };
 
-class AoD_Sic_Tank_Cannon_IW;
-class AoD_Sic_Tank_Cannon_IW_OCimport_01 : AoD_Sic_Tank_Cannon_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Sic_Tank_Cannon_IW_OCimport_02 : AoD_Sic_Tank_Cannon_IW_OCimport_01 { 
+class AoD_Sic_Tank_Cannon_WE;
+class AoD_Sic_Tank_Cannon_WE_OCimport_01 : AoD_Sic_Tank_Cannon_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Sic_Tank_Cannon_WE_OCimport_02 : AoD_Sic_Tank_Cannon_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class CommanderOptics;
@@ -34,9 +34,9 @@ class AoD_Sic_Tank_Cannon_IW_OCimport_02 : AoD_Sic_Tank_Cannon_IW_OCimport_01 {
     };
 };
 
-class AoD_Sic_Tank_V_IW;
-class AoD_Sic_Tank_V_IW_OCimport_01 : AoD_Sic_Tank_V_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Sic_Tank_V_IW_OCimport_02 : AoD_Sic_Tank_V_IW_OCimport_01 { 
+class AoD_Sic_Tank_V_WE;
+class AoD_Sic_Tank_V_WE_OCimport_01 : AoD_Sic_Tank_V_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Sic_Tank_V_WE_OCimport_02 : AoD_Sic_Tank_V_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class MainTurret;
@@ -45,9 +45,9 @@ class AoD_Sic_Tank_V_IW_OCimport_02 : AoD_Sic_Tank_V_IW_OCimport_01 {
     };
 };
 
-class AoD_Sic_Tank_V_HB_IW;
-class AoD_Sic_Tank_V_HB_IW_OCimport_01 : AoD_Sic_Tank_V_HB_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Sic_Tank_V_HB_IW_OCimport_02 : AoD_Sic_Tank_V_HB_IW_OCimport_01 { 
+class AoD_Sic_Tank_V_HB_WE;
+class AoD_Sic_Tank_V_HB_WE_OCimport_01 : AoD_Sic_Tank_V_HB_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Sic_Tank_V_HB_WE_OCimport_02 : AoD_Sic_Tank_V_HB_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class MainTurret;
@@ -56,9 +56,9 @@ class AoD_Sic_Tank_V_HB_IW_OCimport_02 : AoD_Sic_Tank_V_HB_IW_OCimport_01 {
     };
 };
 
-class AoD_Sic_Tank_Vind_IW;
-class AoD_Sic_Tank_Vind_IW_OCimport_01 : AoD_Sic_Tank_Vind_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Sic_Tank_Vind_IW_OCimport_02 : AoD_Sic_Tank_Vind_IW_OCimport_01 { 
+class AoD_Sic_Tank_Vind_WE;
+class AoD_Sic_Tank_Vind_WE_OCimport_01 : AoD_Sic_Tank_Vind_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Sic_Tank_Vind_WE_OCimport_02 : AoD_Sic_Tank_Vind_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class MainTurret;
@@ -67,9 +67,9 @@ class AoD_Sic_Tank_Vind_IW_OCimport_02 : AoD_Sic_Tank_Vind_IW_OCimport_01 {
     };
 };
 
-class AoD_Land_Raider_Command_IW;
-class AoD_Land_Raider_Command_IW_OCimport_01 : AoD_Land_Raider_Command_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Land_Raider_Command_IW_OCimport_02 : AoD_Land_Raider_Command_IW_OCimport_01 { 
+class AoD_Land_Raider_Command_WE;
+class AoD_Land_Raider_Command_WE_OCimport_01 : AoD_Land_Raider_Command_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Land_Raider_Command_WE_OCimport_02 : AoD_Land_Raider_Command_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class CommanderOptics;
@@ -79,9 +79,9 @@ class AoD_Land_Raider_Command_IW_OCimport_02 : AoD_Land_Raider_Command_IW_OCimpo
     };
 };
 
-class AoD_Land_Raider_Tank_IW;
-class AoD_Land_Raider_Tank_IW_OCimport_01 : AoD_Land_Raider_Tank_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Land_Raider_Tank_IW_OCimport_02 : AoD_Land_Raider_Tank_IW_OCimport_01 { 
+class AoD_Land_Raider_Tank_WE;
+class AoD_Land_Raider_Tank_WE_OCimport_01 : AoD_Land_Raider_Tank_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Land_Raider_Tank_WE_OCimport_02 : AoD_Land_Raider_Tank_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class CommanderOptics;
@@ -94,9 +94,9 @@ class TIOW_Bike_WB_1;
 class TIOW_Bike_WB_1_OCimport_01 : TIOW_Bike_WB_1 { scope = 0; class EventHandlers; };
 class TIOW_Bike_WB_1_OCimport_02 : TIOW_Bike_WB_1_OCimport_01 { scope = 0; class EventHandlers; };
 
-class AoD_Pred_Tank_Las_IW;
-class AoD_Pred_Tank_Las_IW_OCimport_01 : AoD_Pred_Tank_Las_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Pred_Tank_Las_IW_OCimport_02 : AoD_Pred_Tank_Las_IW_OCimport_01 { 
+class AoD_Pred_Tank_Las_WE;
+class AoD_Pred_Tank_Las_WE_OCimport_01 : AoD_Pred_Tank_Las_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Pred_Tank_Las_WE_OCimport_02 : AoD_Pred_Tank_Las_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class CommanderOptics;
@@ -127,9 +127,9 @@ class TIOW_Bike_WB_4_OCimport_02 : TIOW_Bike_WB_4_OCimport_01 {
     };
 };
 
-class AoD_Pred_Tank_IW;
-class AoD_Pred_Tank_IW_OCimport_01 : AoD_Pred_Tank_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Pred_Tank_IW_OCimport_02 : AoD_Pred_Tank_IW_OCimport_01 { 
+class AoD_Pred_Tank_WE;
+class AoD_Pred_Tank_WE_OCimport_01 : AoD_Pred_Tank_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Pred_Tank_WE_OCimport_02 : AoD_Pred_Tank_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class CommanderOptics;
@@ -138,9 +138,9 @@ class AoD_Pred_Tank_IW_OCimport_02 : AoD_Pred_Tank_IW_OCimport_01 {
     };
 };
 
-class AoD_Pred_Tank_Melt_IW;
-class AoD_Pred_Tank_Melt_IW_OCimport_01 : AoD_Pred_Tank_Melt_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Pred_Tank_Melt_IW_OCimport_02 : AoD_Pred_Tank_Melt_IW_OCimport_01 { 
+class AoD_Pred_Tank_Melt_WE;
+class AoD_Pred_Tank_Melt_WE_OCimport_01 : AoD_Pred_Tank_Melt_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Pred_Tank_Melt_WE_OCimport_02 : AoD_Pred_Tank_Melt_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class CommanderOptics;
@@ -149,9 +149,9 @@ class AoD_Pred_Tank_Melt_IW_OCimport_02 : AoD_Pred_Tank_Melt_IW_OCimport_01 {
     };
 };
 
-class AoD_Pred_Tank_NL_IW;
-class AoD_Pred_Tank_NL_IW_OCimport_01 : AoD_Pred_Tank_NL_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Pred_Tank_NL_IW_OCimport_02 : AoD_Pred_Tank_NL_IW_OCimport_01 { 
+class AoD_Pred_Tank_NL_WE;
+class AoD_Pred_Tank_NL_WE_OCimport_01 : AoD_Pred_Tank_NL_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Pred_Tank_NL_WE_OCimport_02 : AoD_Pred_Tank_NL_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class CommanderOptics;
@@ -190,9 +190,9 @@ class TIOW_SM_Razorback_LC_WB_OCimport_02 : TIOW_SM_Razorback_LC_WB_OCimport_01 
     };
 };
 
-class AoD_Rhino_Tank_Command_IW;
-class AoD_Rhino_Tank_Command_IW_OCimport_01 : AoD_Rhino_Tank_Command_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Rhino_Tank_Command_IW_OCimport_02 : AoD_Rhino_Tank_Command_IW_OCimport_01 { 
+class AoD_Rhino_Tank_Command_WE;
+class AoD_Rhino_Tank_Command_WE_OCimport_01 : AoD_Rhino_Tank_Command_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Rhino_Tank_Command_WE_OCimport_02 : AoD_Rhino_Tank_Command_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class CommanderOptics;
@@ -200,9 +200,9 @@ class AoD_Rhino_Tank_Command_IW_OCimport_02 : AoD_Rhino_Tank_Command_IW_OCimport
     };
 };
 
-class AoD_Rhino_Tank_IW;
-class AoD_Rhino_Tank_IW_OCimport_01 : AoD_Rhino_Tank_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Rhino_Tank_IW_OCimport_02 : AoD_Rhino_Tank_IW_OCimport_01 { 
+class AoD_Rhino_Tank_WE;
+class AoD_Rhino_Tank_WE_OCimport_01 : AoD_Rhino_Tank_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Rhino_Tank_WE_OCimport_02 : AoD_Rhino_Tank_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class CommanderOptics;
@@ -210,9 +210,9 @@ class AoD_Rhino_Tank_IW_OCimport_02 : AoD_Rhino_Tank_IW_OCimport_01 {
     };
 };
 
-class AoD_Whirl_Tank_IW;
-class AoD_Whirl_Tank_IW_OCimport_01 : AoD_Whirl_Tank_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Whirl_Tank_IW_OCimport_02 : AoD_Whirl_Tank_IW_OCimport_01 { 
+class AoD_Whirl_Tank_WE;
+class AoD_Whirl_Tank_WE_OCimport_01 : AoD_Whirl_Tank_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Whirl_Tank_WE_OCimport_02 : AoD_Whirl_Tank_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class Main_Arty;
@@ -221,9 +221,9 @@ class AoD_Whirl_Tank_IW_OCimport_02 : AoD_Whirl_Tank_IW_OCimport_01 {
     };
 };
 
-class AoD_Whirl_Tank_AA_IW;
-class AoD_Whirl_Tank_AA_IW_OCimport_01 : AoD_Whirl_Tank_AA_IW { scope = 0; class EventHandlers; class Turrets; };
-class AoD_Whirl_Tank_AA_IW_OCimport_02 : AoD_Whirl_Tank_AA_IW_OCimport_01 { 
+class AoD_Whirl_Tank_AA_WE;
+class AoD_Whirl_Tank_AA_WE_OCimport_01 : AoD_Whirl_Tank_AA_WE { scope = 0; class EventHandlers; class Turrets; };
+class AoD_Whirl_Tank_AA_WE_OCimport_02 : AoD_Whirl_Tank_AA_WE_OCimport_01 { 
     class EventHandlers; 
     class Turrets : Turrets {
         class Main_AA;

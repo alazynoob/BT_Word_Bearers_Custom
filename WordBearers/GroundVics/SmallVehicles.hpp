@@ -1,8 +1,8 @@
-class O_OBTWordBearers40k_WB_IW_Assault_Bike_Bolter_01 : TIOW_Bike_WB_1_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Assault_Bike_Bolter_01 : TIOW_Bike_WB_1_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Assault Bike (Bolter)";
+    displayName = "WB Assault Bike (Bolter)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Vehicles"; 
     faction = "O__BT_WordBearers_40k";
@@ -23,11 +23,11 @@ class O_OBTWordBearers40k_WB_IW_Assault_Bike_Bolter_01 : TIOW_Bike_WB_1_OCimport
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Assault_Bike_Plasma_01 : TIOW_Bike_WB_2_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Assault_Bike_Plasma_01 : TIOW_Bike_WB_2_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Assault Bike (Plasma)";
+    displayName = "WB Assault Bike (Plasma)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Vehicles"; 
     faction = "O__BT_WordBearers_40k";
@@ -48,11 +48,11 @@ class O_OBTWordBearers40k_WB_IW_Assault_Bike_Plasma_01 : TIOW_Bike_WB_2_OCimport
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Attack_Bike_Bolter_01 : TIOW_Bike_WB_3_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Attack_Bike_Bolter_01 : TIOW_Bike_WB_3_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Attack Bike (Bolter)";
+    displayName = "WB Attack Bike (Bolter)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Vehicles"; 
     faction = "O__BT_WordBearers_40k";
@@ -78,11 +78,11 @@ class O_OBTWordBearers40k_WB_IW_Attack_Bike_Bolter_01 : TIOW_Bike_WB_3_OCimport_
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Attack_Bike_Melta_01 : TIOW_Bike_WB_4_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Attack_Bike_Melta_01 : TIOW_Bike_WB_4_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Attack Bike (Melta)";
+    displayName = "WB Attack Bike (Melta)";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Vehicles"; 
     faction = "O__BT_WordBearers_40k";
@@ -108,11 +108,11 @@ class O_OBTWordBearers40k_WB_IW_Attack_Bike_Melta_01 : TIOW_Bike_WB_4_OCimport_0
 
 };
 
-class O_OBTWordBearers40k_WB_IW_Rapier_Laser_Destroyer_01 : AoD_Rapier_Tank_CSM_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Rapier_Laser_Destroyer_01 : AoD_Rapier_Tank_CSM_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Rapier Laser Destroyer";
+    displayName = "WB Rapier Laser Destroyer";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Vehicles"; 
     faction = "O__BT_WordBearers_40k";
@@ -139,11 +139,11 @@ class O_OBTWordBearers40k_WB_IW_Rapier_Laser_Destroyer_01 : AoD_Rapier_Tank_CSM_
 };
 
 
-class O_OBTWordBearers40k_WB_IW_Rapier_Quad_Heavy_Bolters_01 : AoD_Rapier_Tank_CSM_HB_OCimport_02 {
+class O_OBTWordBearers40k_WB_WE_Rapier_Quad_Heavy_Bolters_01 : AoD_Rapier_Tank_CSM_HB_OCimport_02 {
     author = "[SB] Balderic Caeledis";
     scope = 2;
     scopeCurator = 2;
-    displayName = "WB - IW Rapier Quad Heavy Bolters";
+    displayName = "WB Rapier Quad Heavy Bolters";
     side = 0;
     editorSubcategory = "BT_WordBearers_Small_Vehicles"; 
     faction = "O__BT_WordBearers_40k";
