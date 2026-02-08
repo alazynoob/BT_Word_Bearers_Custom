@@ -27,6 +27,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_2Initiate_1Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_2Initiate_1Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_2Initiate_1Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_2Initiate_1Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_2Initiate_1Autocannon_01",
+
+            
             "O_BTWord_Bearers_MK_2Initiate_2Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_2Initiate_2Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_2Initiate_2Lascannon_Shoulder_40k_01",
@@ -53,6 +57,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_2Initiate_2Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_2Initiate_2Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_2Initiate_2Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_2Initiate_2Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_2Initiate_2Autocannon_01",
+
+
             "O_BTWord_Bearers_MK_2Initiate_3Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_2Initiate_3Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_2Initiate_3Lascannon_Shoulder_40k_01",
@@ -79,6 +87,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_2Initiate_3Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_2Initiate_3Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_2Initiate_3Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_2Initiate_3Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_2Initiate_3Autocannon_01",
+
+
             "O_BTWord_Bearers_MK_2VeteranHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_2VeteranLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_2VeteranLascannon_Shoulder_40k_01",
@@ -105,6 +117,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_2VeteranVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_2VeteranVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_2VeteranVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_2VeteranUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_2Initiate_1Autocannon_01",
+
+
             "O_BTWord_Bearers_MK_2OfficerHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_2OfficerLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_2OfficerLascannon_Shoulder_40k_01",
@@ -131,6 +147,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_2OfficerVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_2OfficerVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_2OfficerVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_2OfficerUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_2OfficerAutocannon_01",
+
+
             "O_BTWord_Bearers_MK_2NeophyteHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_2NeophyteLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_2NeophyteLascannon_Shoulder_40k_01",
@@ -157,6 +177,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_2NeophyteVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_2NeophyteVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_2NeophyteVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_2NeophyteUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_2NeophyteAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_3Initiate_1Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_1Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_1Lascannon_Shoulder_40k_01",
@@ -183,6 +207,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_3Initiate_1Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_1Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_1Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_3Initiate_1Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_3Initiate_1Autocannon_01",
+
+
             "O_BTWord_Bearers_Mk_3Initiate_2Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_2Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_2Lascannon_Shoulder_40k_01",
@@ -209,6 +237,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_3Initiate_2Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_2Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_2Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_3Initiate_2Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_3Initiate_2Autocannon_01",
+
+
             "O_BTWord_Bearers_Mk_3Initiate_3Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_3Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_3Lascannon_Shoulder_40k_01",
@@ -235,6 +267,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_3Initiate_3Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_3Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_3Initiate_3Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_3Initiate_3Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_3Initiate_3Autocannon_01",
+
+
             "O_BTWord_Bearers_Mk_3VeteranHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_3VeteranLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_3VeteranLascannon_Shoulder_40k_01",
@@ -261,6 +297,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_3VeteranVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_3VeteranVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_3VeteranVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_3VeteranUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_3VeteranAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_3OfficerHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_3OfficerLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_3OfficerLascannon_Shoulder_40k_01",
@@ -287,6 +327,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_3OfficerVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_3OfficerVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_3OfficerVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_3OfficerUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_3OfficerAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_3NeophyteHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_3NeophyteLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_3NeophyteLascannon_Shoulder_40k_01",
@@ -313,6 +357,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_3NeophyteVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_3NeophyteVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_3NeophyteVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_3NeophyteUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_3NeophyteAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_4Initiate_1Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_1Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_1Lascannon_Shoulder_40k_01",
@@ -339,6 +387,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_4Initiate_1Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_1Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_1Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_4Initiate_1Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_4Initiate_1Autocannon_01",  
+
+
             "O_BTWord_Bearers_Mk_4Initiate_2Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_2Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_2Lascannon_Shoulder_40k_01",
@@ -365,6 +417,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_4Initiate_2Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_2Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_2Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_4Initiate_2Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_4Initiate_2Autocannon_01",
+
+
             "O_BTWord_Bearers_Mk_4Initiate_3Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_3Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_3Lascannon_Shoulder_40k_01",
@@ -391,6 +447,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_4Initiate_3Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_3Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_4Initiate_3Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_4Initiate_3Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_4Initiate_3Autocannon_01",
+
+
             "O_BTWord_Bearers_Mk_4VeteranHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_4VeteranLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_4VeteranLascannon_Shoulder_40k_01",
@@ -417,6 +477,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_4VeteranVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_4VeteranVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_4VeteranVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_4VeteranUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_4VeteranAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_4OfficerHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_4OfficerLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_4OfficerLascannon_Shoulder_40k_01",
@@ -443,6 +507,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_4OfficerVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_4OfficerVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_4OfficerVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_4OfficerUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_4OfficerAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_4NeophyteHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_4NeophyteLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_4NeophyteLascannon_Shoulder_40k_01",
@@ -469,6 +537,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_4NeophyteVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_4NeophyteVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_4NeophyteVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_4NeophyteUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_4NeophyteAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_5Initiate_1Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_1Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_1Lascannon_Shoulder_40k_01",
@@ -495,6 +567,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_5Initiate_1Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_1Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_1Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_5Initiate_1Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_5Initiate_1Autocannon_01",          
+
+
             "O_BTWord_Bearers_Mk_5Initiate_2Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_2Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_2Lascannon_Shoulder_40k_01",
@@ -521,6 +597,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_5Initiate_2Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_2Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_2Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_5Initiate_2Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_5Initiate_2Autocannon_01",
+
+
             "O_BTWord_Bearers_Mk_5Initiate_3Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_3Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_3Lascannon_Shoulder_40k_01",
@@ -547,6 +627,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_5Initiate_3Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_3Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_5Initiate_3Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_5Initiate_3Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_5Initiate_3Autocannon_01",
+
+
             "O_BTWord_Bearers_Mk_5VeteranHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_5VeteranLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_5VeteranLascannon_Shoulder_40k_01",
@@ -573,6 +657,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_5VeteranVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_5VeteranVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_5VeteranVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_5VeteranUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_5VeteranAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_5OfficerHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_5OfficerLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_5OfficerLascannon_Shoulder_40k_01",
@@ -599,6 +687,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_5OfficerVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_5OfficerVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_5OfficerVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_5OfficerUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_5OfficerAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_5NeophyteHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_5NeophyteLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_5NeophyteLascannon_Shoulder_40k_01",
@@ -625,6 +717,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_5NeophyteVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_5NeophyteVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_5NeophyteVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_5NeophyteUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_5NeophyteAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_6Initiate_1Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_1Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_1Lascannon_Shoulder_40k_01",
@@ -651,6 +747,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_6Initiate_1Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_1Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_1Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_6Initiate_1Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_6Initiate_1Autocannon_01",
+
+            
             "O_BTWord_Bearers_Mk_6Initiate_2Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_2Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_2Lascannon_Shoulder_40k_01",
@@ -677,6 +777,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_6Initiate_2Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_2Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_2Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_6Initiate_2Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_6Initiate_2Autocannon_01",
+
+
             "O_BTWord_Bearers_Mk_6Initiate_3Heavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_3Lascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_3Lascannon_Shoulder_40k_01",
@@ -703,6 +807,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_6Initiate_3Volkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_3Volkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_6Initiate_3Volkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_6Initiate_3Umbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_6Initiate_3Autocannon_01",
+
+
             "O_BTWord_Bearers_Mk_6VeteranHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_6VeteranLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_6VeteranLascannon_Shoulder_40k_01",
@@ -729,6 +837,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_6VeteranVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_6VeteranVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_6VeteranVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_6VeteranUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_6VeteranAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_6OfficerHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_6OfficerLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_6OfficerLascannon_Shoulder_40k_01",
@@ -755,6 +867,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_6OfficerVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_6OfficerVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_6OfficerVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_6OfficerUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_6OfficerAutocannon_01",
+
+
             "O_BTWord_Bearers_Mk_6NeophyteHeavy_Bolter_40k_01",
             "O_BTWord_Bearers_Mk_6NeophyteLascannon_Hip_40k_01",
             "O_BTWord_Bearers_Mk_6NeophyteLascannon_Shoulder_40k_01",
@@ -781,6 +897,10 @@ class CfgPatches {
             "O_BTWord_Bearers_Mk_6NeophyteVolkite_Caliver_40k_01",
             "O_BTWord_Bearers_Mk_6NeophyteVolkite_Charger_40k_01",
             "O_BTWord_Bearers_Mk_6NeophyteVolkite_Culverin_40k_01",
+            "O_BTWord_Bearers_Mk_6NeophyteUmbra_Bolter_40k_01",
+            "O_BTWord_Bearers_Mk_6NeophyteAutocannon_01",
+            
+
             "O_OBTWordBearers40k_WB_IW_Land_Raider_Phobos_01",
             "O_OBTWordBearers40k_WB_IW_Deimos_Rhino_01",
             "O_OBTWordBearers40k_WB_IW_Razorback_Heavy_Bolter_01",
@@ -833,45 +953,21 @@ class CfgPatches {
         addonRootClass = "Lazy_Custom_Factions_Mod";
         requiredVersion = 1.62;
         requiredAddons[] = {
+            "AoD_All_Weps",
+            "30k_Steve_WB_Tex",
+            "WordBearersArmoury_TIOW",
+            "Lazy_BT_Weapon_Balance_Patch_AOD2",
             "TIOWSpaceMarines",
-            "vng_tiow_ace_compat",
-            "BT_Terminator",
-            "CTR_Inceptor",
-            "A3_Characters_F",
-            "AM_weapons",
-            "Yilan001_40k_navis_addon",
-            "IC_Steel_Legion",
-            "IC_Cadia",
-            "IC_Chaos",
-            "BT_Terminator_AceScripts",
-            "BT_Armoury_Moss",
-            "functions_f_gearf",
-            "A3_Sounds_F",
-            "WBK_EOO_AdMechanics",
-            "A3_Sounds_F_Exp",
-            "rps_functions",
-            "ace_gforces",
-            "ace_movement",
-            "ace_medical_feedback",
-            "A3_Data_F",
-            "A3_Data_F_Curator",
-            "A3_Air_F_Heli",
-            "GOT_Map_IslaPera",
-            "pja310",
-            "tem_ihantalaw",
-            "GO_Map_Farabad_Data",
-            "jns_tria",
-            "Ruha",
-            "ace_thermals",
-            "zen_attributes",
-            "tfar_core",
-            "ace_refuel",
-            "CUP_Core",
-            "cba_xeh",
             "Aod_VTOL",
             "Aod_VTOL_2",
             "AoD_Track_Tanks",
-            "AoD_Track_Tanks_2"
+            "AoD_Track_Tanks_2",
+            "Aod_Track_Tanks_3",
+            "AoD_UAV_1",
+            "Steve_Ass_Ram",
+            "TIOW_SM_Fast_attack",
+            "TIOW_Land_Speeder_Types",
+            "TIOW_Thunderhawk",
         };
         author = "[SB] Balderic Caeledis";
         authors[] = {"[SB] Balderic Caeledis"};
